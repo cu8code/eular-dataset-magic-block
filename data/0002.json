@@ -16,7 +16,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "b39bb7c3-a9ec-428f-bbc9-915fd31bbe0a"
   },
   {
     "question": "Mole is hungry again. He found one ant colony, consisting of n ants, ordered in a row. Each ant i (1 ≤ i ≤ n) has a strength si.\n\nIn order to make his dinner more interesting, Mole organizes a version of «Hunger Games» for the ants. He chooses two numbers l and r (1 ≤ l ≤ r ≤ n) and each pair of ants with indices between l and r (inclusively) will fight. When two ants i and j fight, ant i gets one battle point only if si divides sj (also, ant j gets one battle point only if sj divides si). \n\nAfter all fights have been finished, Mole makes the ranking. An ant i, with vi battle points obtained, is going to be freed only if vi = r - l, or in other words only if it took a point in every fight it participated. After that, Mole eats the rest of the ants. Note that there can be many ants freed or even none.\n\nIn order to choose the best sequence, Mole gives you t segments [li, ri] and asks for each of them how many ants is he going to eat if those ants fight.\n\nInput\n\nThe first line contains one integer n (1 ≤ n ≤ 105), the size of the ant colony. \n\nThe second line contains n integers s1, s2, ..., sn (1 ≤ si ≤ 109), the strengths of the ants. \n\nThe third line contains one integer t (1 ≤ t ≤ 105), the number of test cases. \n\nEach of the next t lines contains two integers li and ri (1 ≤ li ≤ ri ≤ n), describing one query.\n\nOutput\n\nPrint to the standard output t lines. The i-th line contains number of ants that Mole eats from the segment [li, ri].\n\nExamples\n\nInput\n\n5\n1 3 2 4 2\n4\n1 5\n2 5\n3 5\n4 5\n\n\nOutput\n\n4\n4\n1\n1\n\nNote\n\nIn the first test battle points for each ant are v = [4, 0, 2, 0, 2], so ant number 1 is freed. Mole eats the ants 2, 3, 4, 5.\n\nIn the second test case battle points are v = [0, 2, 0, 2], so no ant is freed and all of them are eaten by Mole.\n\nIn the third test case battle points are v = [2, 0, 2], so ants number 3 and 5 are freed. Mole eats only the ant 4.\n\nIn the fourth test case battle points are v = [0, 1], so ant number 5 is freed. Mole eats the ant 4.",
@@ -35,7 +36,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "d5131593-4986-45b5-878e-21e8cb0a930d"
   },
   {
     "question": "Little Elephant is playing a game with arrays. He is given an array A0, A1, ..., AN−1 of N integers. And then Q queries are given, each containing an integer K. He has to tell how many subarrays satisfy the condition: the function foo returns K when it is applied to the subarray.\n\nIn this problem, a subarray is defined as a sequence of continuous elements Ai, Ai+1, ..., Aj  where 0 ≤ i ≤ j ≤ N−1. The function foo, when applied to an array, returns the minimum of all the elements in the array.\n\nFor example, foo returns 5 when it is applied to the array [7, 5, 10, 7, 5, 8]. Please note that the subarrays Ai, Ai+1, ..., Aj and Ak, Ak+1, ..., Al are different if and only if i ≠ k or j ≠ l in this problem.\n\n-----Input-----\nThe first line of input contains N, denoting the size of the array. The next line contains N space separated integers A0, A1, ..., AN−1, denoting the array. Then the next line contains Q, denoting the number of queries. Each query consists of one integer per line, denoting K.\n\n-----Output-----\nFor each query, print the required number of subarrays.\n\n-----Constraints-----\n- 1 ≤ N ≤ 50\n- 1 ≤ Ai ≤ 1000000 (106)\n- 1 ≤ Q ≤ 10\n- 1 ≤ K ≤ 1000000 (106)\n\n-----Example-----\nInput:\n5\n4 1 2 3 4\n4\n3\n4\n6\n1\n\nOutput:\n2\n2\n0\n8\n\n-----Explanation-----\nQuery 1. Only the two subarrays [3, 4] and [3] satisfy.\nQuery 2. Again only the two subarrays [4] and [4] satisfy. Please note that these subarrays (A0 and A4) are considered different.\nQuery 3. No subarray satisfies.\nQuery 4. The eight subarrays [4, 1], [4, 1, 2], [4, 1, 2, 3], [4, 1, 2, 3, 4], [1], [1, 2], [1, 2, 3] and [1, 2, 3, 4] satisfy.",
@@ -54,7 +56,8 @@
     "date": "2014-01-03",
     "picture_num": "0",
     "memory_limit": "50000 bytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "d44cfa9f-da55-4f5a-8ece-65f638236b55"
   },
   {
     "question": "There is a legendary tale about Dragon Balls on Planet X: if one collects seven Dragon Balls, the Dragon God will show up and help you fulfill your wishes.\n\nOne day, you are surprised to discover that the tale might possibly be true: you found a Dragon Ball radar at a flea market! The radar shows you the locations of the seven Dragon Balls on Planet X. You want to waste no time checking the truth of the old legend about wish-granting for yourself!\n\nThere are $n$ cities in total on the Planet X, numbered from $1$ to $n$. You are currently at city $1$. To travel from one city to another, you can take any of $m$ bidirectional teleport trips, as many times as you like. The $i$-th teleporter costs $t_ i$ coins to use each time, and it can teleport you between cities $a_ i$ and $b_ i$. To collect a Dragon Ball, you simply need to visit the city where it’s located, as indicated on your radar. It is possible that multiple Dragon Balls are at the same city; in this case you pick all of them all up at once if you visit that city.\n\n-----Input-----\nThe first line of input contains two space-separated integers $n$ and $m$ $(1 \\leq n,m \\leq 200000)$, the number of cities and possible teleport trips. Then follow $m$ lines containing three space-separated integers $a_ i$, $b_ i$, and $t_ i$ each $(1 \\le a_ i, b_ i \\le n, 0 \\le t_ i \\le 10000)$, which, as explained above, represent the two cities connected by the teleport trip, and cost to use the teleporter. Then follows one line of seven space-separated integers, representing the city IDs of the seven Dragon Balls showing on the radar. Each ID $c$ satisfies the bound $1 \\leq c \\leq n$.\n\n-----Output-----\nPrint the minimum number of coins that you need to spend to collect all seven Dragon Balls shown on the Dragon Ball radar. If there is no way to complete this task, print $-1$ instead.\n\n-----Examples-----\nSample Input:\n10 9\n1 2 1\n2 3 1\n3 4 1\n4 5 1\n5 6 1\n6 7 1\n7 8 1\n8 9 1\n9 10 1\n1 2 3 4 5 6 7\nSample Output:\n6",
@@ -73,7 +76,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "af79c724-1f14-492b-becd-f90ea383e0d1"
   },
   {
     "question": "Given 3 characters 'a', 'b', 'c'. Find the number of strings of length n that can be formed from these 3 characters. Given that : we can use ‘a’ as many times as we want, ‘b’ maximum once, and ‘c’ maximum twice.\n \nExample 1:\nInput: n = 2\nOutput: 8\nExpalantion: There are total 8 possible\nstrings and these are: {aa, ab, ba, ac,\nca, bc, cb, cc}.\nExample 2:\nInput: n = 3\nOutput: 19\nExplanation: There are total 19 possible\nstrings.\n \nYour Task:\nYou don't need to read or print anything. Your task is to complete the function no_ofString() which takes n as input parameter ans returns the no. of total possible strings than can be formed using characters 'a', 'b' and 'c' modulo 10^{9} + 7.\n \nExpected Time Complexity: O(n)\nExpected Space Compelxity: O(n)\n \nConstraints:\n1 <= n <= 100000",
@@ -92,7 +96,8 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(n)"
+    "Expected Time Complexity": "O(n)",
+    "uuid": "c5b9b2ec-300a-40b0-b60f-bc3e679cc505"
   },
   {
     "question": "A frog starts at the point 0. In his first turn, he can make a jump of 1 unit. Now for all consequent turns, if the frog is currently at a distance x (from the start), his jump will take him x units forward. Given a leaf at a distance N, you have to find if the frog can reach that leaf or not.\n \nExample 1:\nInput:\nN = 3\nOutput:\nFalse\nExplanation:\nThe frog can't reach the position 3.\nExample 2:\nInput:\nN = 2\nOutput:\nTrue\nExplanation:\nThe frog will jump to position 1 in\nthe first jump. Now, he is at a distance\nof 1 from the start, so he cam jump 1m.\nSo, he reaches the point 2.\n \nYour Task:\nYou don't need to read input or print anything. Your task is to complete the function canJump() which takes an Integer N as input and return \"True\" if the frog can reach N else return \"False\".\n \nExpected Time Complexity: O(1)\nExpected Auxiliary Space: O(1)\n \nConstraints:\n1 <= N <= 10^{18}",
@@ -111,7 +116,8 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(1)"
+    "Expected Time Complexity": "O(1)",
+    "uuid": "e4030fb7-b0b2-4cbf-9fba-161b380b24f7"
   },
   {
     "question": "Given a 2-D binary matrix of size n*m, where 0 represents an empty space while 1 represents a wall you cannot walk through. You are also given an integer k.\nYou can walk up, down, left, or right. Given that you can remove up to k walls, return the minimum number of steps to walk from the top left corner (0, 0) to the bottom right corner (n-1, m-1).\nNote: If there is no way to walk from the top left corner to the bottom right corner, return -1.\nExample 1:\nInput: n = 3, m = 3, k = 1\nmat = {{0, 0, 0},\n       {0, 0, 1},\n       {0, 1, 0}}\nOutput:\n4\nExplanation:\nWe can remove any one of the walls and\nreach the bottom in 4 moves.  \nExample 2:\nInput:\nn = 2, m = 2, k = 0\nmat[] = {{0, 1},\n         {1, 0}}\nOutput:\n-1\nExplanation:\nThere's no way of reaching the bottom\ncorner without removing any walls.\nYour Task:\nThe task is to complete the function shotestPath() which takes three integers n, m, and k and also a matrix of size n*m as input and returns the minimum number of steps to walk from the top left corner to the bottom right corner.\nConstraints:\n1 ≤ n,m ≤ 50\n0 ≤ k ≤ n*m\nTop left and bottom right corners doesn't have 1\nExpected Time Complexity: O(n*m*k).\nExpected Auxiliary Space: O(n*m*k).",
@@ -130,7 +136,8 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(n*m*k)."
+    "Expected Time Complexity": "O(n*m*k).",
+    "uuid": "d9da89dc-5743-44e5-92dd-8bbb0e8bc332"
   },
   {
     "question": "View Russian Translation\n\nLittle pig Benny has just taken a shower. Now she is going to buy some gifts for her relatives. But the problem is that Benny doesn't know how to reach to the gift shop. Her friend Mike has created a special set of instructions for her. \nA set of instructions is a string which consists of letters {'L', 'R', 'U', 'D'}. \n\nFor simplicity, let's assume that Benny is staying at point (0, 0) on the infinite plane. She consistently fulfills all the instructions written by Mike. Let's assume that now she is staying at point (X, Y).  Then depending on what is the current instruction she moves in some direction: \n'L' -- from  (X, Y) moves to point (X, Y - 1)\n'R' -- from  (X, Y) moves to point (X, Y + 1)\n'U' -- from  (X, Y) moves to point (X - 1, Y)\n'D' -- from (X, Y) moves to point (X + 1, Y)\n\nThe weather is cold because it's winter now. Initially, all points are snowy. But if Benny have already visited some point at any time this point becomes icy (because Benny has just taken a shower). Every time, when Benny makes a step into icy points she slips and falls down.\n\nYou are given a string S which denotes a set of instructions for Benny. Your task is to calculate how may times she will fall down.\n\nInput format\n\nSingle line contains string S.\n\nOutput format\n\nOutput how many times Benny will fall down.\n\nConstraints\n\n- 1 ≤\nS\n≤ 10^5\nSAMPLE INPUT\nRRULDL\n\nSAMPLE OUTPUT\n2\n\nExplanation\n\nBenny's route consists of points \n\n0 0 (becomes icy) --> 0 1 (becomes icy) --> 0 2 (becomes icy) --> -1 2 (becomes icy) --> -1 1 (becomes icy) --> 0 1 (is icy) --> 0 0 (is icy)\n\nSo Benny made two steps into icy points.",
@@ -149,7 +156,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "cfe768ef-5c5c-448c-9dc4-b90df479f7fb"
   },
   {
     "question": "Given a string, find the longest substring which is palindrome in Linear time O(N).\nInput:\nThe first line of input contains an integer T denoting the no of test cases . Then T test cases follow. The only line of each test case contains a string.\nOutput:\nFor each test case print the Longest Palindromic Substring. If there are multiple such substrings of same length, print the one which appears first in the input string.\nConstraints:\n1 <= T <= 100\n1 <= N <= 50\nExample:\nInput:\n2\nbabcbabcbaccba\nforgeeksskeegfor\nOutput:\nabcbabcba\ngeeksskeeg\n \n \n \nNote:The Input/Ouput format and Example given are used for system's internal purpose, and should be used by a user for Expected Output only. As it is a function problem, hence a user should not read any input from stdin/console. The task is to complete the function specified, and not to write the full code.",
@@ -168,7 +176,8 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": ""
+    "Expected Time Complexity": "",
+    "uuid": "f4ee53ec-0683-41ec-a9dd-b161329d4e99"
   },
   {
     "question": "You are given a decimal representation of an integer $x$ without leading zeros.\n\nYou have to perform the following reduction on it exactly once: take two neighboring digits in $x$ and replace them with their sum without leading zeros (if the sum is $0$, it's represented as a single $0$).\n\nFor example, if $x = 10057$, the possible reductions are:\n\nchoose the first and the second digits $1$ and $0$, replace them with $1+0=1$; the result is $1057$;\n\nchoose the second and the third digits $0$ and $0$, replace them with $0+0=0$; the result is also $1057$;\n\nchoose the third and the fourth digits $0$ and $5$, replace them with $0+5=5$; the result is still $1057$;\n\nchoose the fourth and the fifth digits $5$ and $7$, replace them with $5+7=12$; the result is $10012$.\n\nWhat's the largest number that can be obtained?\n\n\n-----Input-----\n\nThe first line contains a single integer $t$ ($1 \\le t \\le 10^4$) — the number of testcases.\n\nEach testcase consists of a single integer $x$ ($10 \\le x < 10^{200000}$). $x$ doesn't contain leading zeros.\n\nThe total length of the decimal representations of $x$ over all testcases doesn't exceed $2 \\cdot 10^5$.\n\n\n-----Output-----\n\nFor each testcase, print a single integer — the largest number that can be obtained after the reduction is applied exactly once. The number should not contain leading zeros.\n\n\n-----Examples-----\n\nInput\n2\n10057\n90\nOutput\n10012\n9\n\n\n-----Note-----\n\nThe first testcase of the example is already explained in the statement.\n\nIn the second testcase, there is only one possible reduction: the first and the second digits.",
@@ -187,7 +196,8 @@
     "date": "2022-01-16",
     "picture_num": "0",
     "memory_limit": "256 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "eff3d88a-5bd9-4340-a54c-dc073d62a13e"
   },
   {
     "question": "You are given a character parenthesis array and an integer array.\nYou need to find the maximum sum sub-array in the integer array such that the corresponding sub-array in the character array has balanced parenthesis.  \n\nFormally, a balanced parentheses is subset of  { [,],{,},<,>,(,) }∗ defined recursively as follows: \n\nThe empty string is balanced parentheses. \nIf A is balanced parentheses, then so are the strings [A], {A} , <A>, (A). \nIf A and B are balanced parenthesis, then so is the string AB. \n\n\nInput Format\n\nFirst line contains T, the number of test cases.\nFirst line of each test case contains integer N.\nNext two lines contain the character array and the integer array respectively, each having N elements.\n\n\nOutput Format\nFor each test case, output the maximum sum obtained using the constraints above. If the maximum sum obtained is less than 0, output 0 instead.\n\nConstraints\n\n1 ≤ Sum of N over all test cases ≤ 10^6 \n1 ≤ N ≤ 10^5 \n1 ≤ T ≤ 10^5 \n1 ≤ Abs(value of the integer array) ≤ 10^9 \nCharacter array contains chars from this set: [,],{,},<,>,(,) \n\n\nSample Input\n3\n4\n()()\n-1 -2 3 4\n4\n(()]\n-1 -2 3 4\n4\n[{]{\n1 2 3 4\n\nSample Output\n7\n1\n0\n\nExplanation\n\nFor first test case take last 2 elements: 3 + 4 = 7.  \nFor second test case take the middle 2 elements: -2 + 3 = 1  \n\nWarning : Large Input - Output, Use fast IO.",
@@ -206,7 +216,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "3c96a094-f30a-4e32-be04-4b65e356cc73"
   },
   {
     "question": "Given a dictionary of words and a pattern. Every character in the pattern is uniquely mapped to a character in the dictionary. Find all such words in the dictionary that match the given pattern. \nExample 1:\nInput:\nN = 4\ndict[] = {abb,abc,xyz,xyy}\npattern  = foo\nOutput: abb xyy\nExplanation: xyy and abb have the same\ncharacter at index 1 and 2 like the\npattern.\nYour Task:\nYou don't need to read input or print anything. Your task is to complete the function findMatchedWords() which takes an array of strings dict[] consisting of the words in the dictionary and a string, Pattern and returns an array of strings consisting of all the words in the dict[] that match the given Pattern in lexicographical order.\nExpected Time Complexity: O(N*K) (where K is the length of the pattern).\nExpected Auxiliary Space: O(N).\nConstraints:\n1 <= N <= 10",
@@ -225,7 +236,8 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(N*K) (where K is the length of the pattern)."
+    "Expected Time Complexity": "O(N*K) (where K is the length of the pattern).",
+    "uuid": "2abe54ce-c166-4874-9bae-b9a70c7e1e4a"
   },
   {
     "question": "Silver Fox is fighting with N monsters.\nThe monsters are standing in a row, and we can assume them to be standing on a number line. The i-th monster, standing at the coordinate X_i, has the health of H_i.\nSilver Fox can use bombs to attack the monsters.\nUsing a bomb at the coordinate x decreases the healths of all monsters between the coordinates x-D and x+D (inclusive) by A.\nThere is no way other than bombs to decrease the monster's health.\nSilver Fox wins when all the monsters' healths become 0 or below.\nFind the minimum number of bombs needed to win.\n\n-----Constraints-----\n - 1 \\leq N \\leq 2 \\times 10^5\n - 0 \\leq D \\leq 10^9\n - 1 \\leq A \\leq 10^9\n - 0 \\leq X_i \\leq 10^9\n - 1 \\leq H_i \\leq 10^9\n - X_i are distinct.\n - All values in input are integers.\n\n-----Input-----\nInput is given from Standard Input in the following format:\nN D A\nX_1 H_1\n:\nX_N H_N\n\n-----Output-----\nPrint the minimum number of bombs needed to win.\n\n-----Sample Input-----\n3 3 2\n1 2\n5 4\n9 2\n\n-----Sample Output-----\n2\n\nFirst, let us use a bomb at the coordinate 4 to decrease the first and second monsters' health by 2.\nThen, use a bomb at the coordinate 6 to decrease the second and third monsters' health by 2.\nNow, all the monsters' healths are 0.\nWe cannot make all the monsters' health drop to 0 or below with just one bomb.",
@@ -244,7 +256,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "1024.0 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "e4a53792-0a52-4ccb-a8a9-c6d80dbb5d7e"
   },
   {
     "question": "One day Patrik met a magician.He asked magician for his magic pencil.So magician decided to give him magic pencil only if he correctely answers \nto his question. \nMagician gave him 3 numbers a, b and c and asked him to find the multiple of c which is closest to a^b.Help patrik to solve this problem and \nwin magic pencil.\n\nNote:If more than one answer is possible , print the smallest one.\n\nInput Format: \n\nThe first line contains T, the number of testcases. \nT lines follow, each line contains 3 space separated integers a, b and c respectively.\n\nOutput Format: \n\nFor each test case , print the multiple of c which is closest to a^b\n\nConstraints: \n\n1 ≤ T ≤ 10^5 \n\n1 ≤ a ≤ 10^9 \n\n-10^9 ≤ b ≤ 10^9\n\n1 ≤ c ≤ 10^9 \n\n0 < a^b ≤ 10^9 \nRegister for IndiaHacks\n\nSAMPLE INPUT\n3\n125 1 4\n460 1 7\n8 -2 2\n\nSAMPLE OUTPUT\n124\n462\n0\n\nRegister for IndiaHacks",
@@ -263,7 +276,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "c0cbd9d2-a273-4140-a728-b17105fd076d"
   },
   {
     "question": "Suppose you have two strings s and t, and their length is equal. You may perform the following operation any number of times: choose two different characters c1 and c2, and replace every occurence of c1 in both strings with c2. Let's denote the distance between strings s and t as the minimum number of operations required to make these strings equal. For example, if s is abcd and t is ddcb, the distance between them is 2 — we may replace every occurence of a with b, so s becomes bbcd, and then we may replace every occurence of b with d, so both strings become ddcd.\n\nYou are given two strings S and T. For every substring of S consisting of |T| characters you have to determine the distance between this substring and T.\n\nInput\n\nThe first line contains the string S, and the second — the string T (1 ≤ |T| ≤ |S| ≤ 125000). Both strings consist of lowercase Latin letters from a to f.\n\nOutput\n\nPrint |S| - |T| + 1 integers. The i-th of these integers must be equal to the distance between the substring of S beginning at i-th index with length |T| and the string T.\n\nExample\n\nInput\n\nabcdefa\nddcb\n\n\nOutput\n\n2 3 3 3",
@@ -282,7 +296,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "2edd0b39-5e59-4acb-844c-ae2a15ec1832"
   },
   {
     "question": "Nauuo is a girl who loves drawing circles.\n\nOne day she has drawn a circle and wanted to draw a tree on it.\n\nThe tree is a connected undirected graph consisting of n nodes and n-1 edges. The nodes are numbered from 1 to n.\n\nNauuo wants to draw a tree on the circle, the nodes of the tree should be in n distinct points on the circle, and the edges should be straight without crossing each other.\n\n\"Without crossing each other\" means that every two edges have no common point or the only common point is an endpoint of both edges.\n\nNauuo wants to draw the tree using a permutation of n elements. A permutation of n elements is a sequence of integers p_1,p_2,…,p_n in which every integer from 1 to n appears exactly once.\n\nAfter a permutation is chosen Nauuo draws the i-th node in the p_i-th point on the circle, then draws the edges connecting the nodes.\n\nThe tree is given, Nauuo wants to know how many permutations are there so that the tree drawn satisfies the rule (the edges are straight without crossing each other). She only wants to know the answer modulo 998244353, can you help her?\n\nIt is obvious that whether a permutation is valid or not does not depend on which n points on the circle are chosen.\n\nInput\n\nThe first line contains a single integer n (2≤ n≤ 2⋅ 10^5) — the number of nodes in the tree.\n\nEach of the next n-1 lines contains two integers u and v (1≤ u,v≤ n), denoting there is an edge between u and v.\n\nIt is guaranteed that the given edges form a tree.\n\nOutput\n\nThe output contains a single integer — the number of permutations suitable to draw the given tree on a circle satisfying the rule, modulo 998244353.\n\nExamples\n\nInput\n\n\n4\n1 2\n1 3\n2 4\n\n\nOutput\n\n\n16\n\nInput\n\n\n4\n1 2\n1 3\n1 4\n\n\nOutput\n\n\n24\n\nNote\n\nExample 1\n\nAll valid permutations and their spanning trees are as follows.\n\n<image>\n\nHere is an example of invalid permutation: the edges (1,3) and (2,4) are crossed.\n\n<image>\n\nExample 2\n\nEvery permutation leads to a valid tree, so the answer is 4! = 24.",
@@ -301,7 +316,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "31a4d766-c38d-4335-bc91-040cf8f13309"
   },
   {
     "question": "Given a singly linked list, delete middle of the linked list. For example, if given linked list is 1->2->3->4->5 then linked list should be modified to 1->2->4->5.\nIf there are even nodes, then there would be two middle nodes, we need to delete the second middle element. For example, if given linked list is 1->2->3->4->5->6 then it should be modified to 1->2->3->5->6.\nIf the input linked list is NULL or has 1 node, then it should return NULL\nExample 1:\nInput:\nLinkedList: 1->2->3->4->5\nOutput: 1 2 4 5\nExample 2:\nInput:\nLinkedList: 2->4->6->7->5->1\nOutput: 2 4 6 5 1\nYour Task:\nThe task is to complete the function deleteMid() which should delete the middle element from the linked list and return the head of the modified linked list. If the linked list is empty then it should return NULL.\nExpected Time Complexity: O(N).\nExpected Auxiliary Space: O(1).\nConstraints:\n1 <= N <= 1000\n1 <= value <= 1000",
@@ -320,7 +336,8 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(N)."
+    "Expected Time Complexity": "O(N).",
+    "uuid": "27934bcb-0b98-4a2b-a4fc-e997e4644dc9"
   },
   {
     "question": "You are given a sorted array a of length n. For each i(0<=i<=n-1), you have to make all the elements of the array from index 0 till i equal, using minimum number of operations. In one operation you either increase or decrease the array element by 1.\nYou have to return a list which contains the minimum number of operations for each i, to accomplish the above task.\nNote:\n1. 0-based indexing.\n2. For each index, you need to consider the same array which was given to you at the start.\nExample 1:\nInput:\nN=4\nA={1,6,9,12}\nOutput:\n0 5 8 14\nExplanation:\nFor i=0, We do not need to perform any \noperation, our array will be {1}->{1}.\nAnd minimum number of operations\nwill be 0.\nFor i=1, We can choose to convert all \nthe elements from 0<=j<=i to 4, our \narray will become {1,6}->{4,4}. And \nminimum number of operations will be \n|1-4|+|6-4|=5.\nFor i=2, We can choose to convert all \nthe elements from 0<=j<=i to 6, our \narray will become {1,6,9}->{6,6,6} and \nthe minimum number of operations will \nbe |1-6|+|6-6|+|9-6|=8.\nSimilarly, for i=3, we can choose to \nconvert all the elements to 8, \n{1,6,9,12}->{8,8,8,8}, and the \nminimum number of operations will be 14.\nExample 2:\nInput:\nN=7\nA={1,1,1,7,7,10,19}\nOutput:\n0 0 0 6 12 21 33\nExplanation:\nPossible operations could be:\n{1}->{1}\n{1,1}->{1,1}\n{1,1,1}->{1,1,1}\n{1,1,1,7}->{1,1,1,1}\n{1,1,1,7,7}->{1,1,1,1,1}\n{1,1,1,7,7,10}->{5,5,5,5,5,5}\n{1,1,1,7,7,10,19}->{7,7,7,7,7,7,7}\nYour Task:\nYou don't need to read input or print anything. Your task is to complete the function optimalArray() which takes N(length of array) and  an array A as input and returns an array of size N  with optimal answer for each index i.\nExpected Time Complexity: O(N)\nExpected Auxiliary Space: O(1)\nConstraints:\n1 <= N <= 10^{6}\n-10^{5} <= A[i] <= 10^{5}\nSum of N over all test case does not exceed 10^{6}.",
@@ -339,7 +356,8 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(N)"
+    "Expected Time Complexity": "O(N)",
+    "uuid": "e978bc9c-1966-409f-97e9-c543b35ab964"
   },
   {
     "question": "Given a text, text. The task is to count the number of sentences and words in the text. \nDefinition of a sentence :- Sentences are defined as contiguous space-separated strings of characters ending with a sentence punctuation (' . ',  ' ! ' or ' ? ') or the last contiguous set of space-separated strings, even if they don't end with a punctuation mark.\nDefinition of a word :- Words are defined as a string of alphabetic characters i.e. any upper or lower case characters a-z or A-Z.\nExample 1:\nInput: text = \"Sentences\"\nOutput: 1 1\nExplaination: There is only one word and \nsentence in the given text.\nExample 2:\nInput: text = \"many??? Sentences are\"\nOutput: 2 3\nExplaination: There are two sentences and \nthree words.\nYour Task:\nYou do not need to read input or print anything. Your task is to complete the function sentenceWord() which takes text as input parameters and returns a list containing number of sentences and words respectively.\nExpected Time Complexity: O(|text|)\nExpected Auxiliary Space: O(1)\nConstraints:\n1 ≤ |text| ≤ 250",
@@ -358,7 +376,8 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(|text|)"
+    "Expected Time Complexity": "O(|text|)",
+    "uuid": "823806d9-9495-4fb5-bad1-1caa846f214c"
   },
   {
     "question": "Vasya’s elder brother Petya loves playing computer games. In one of his favourite computer games Petya reached the final level where a fight with the boss take place.\n\nWhile playing the game Petya found spell scrolls and now he is about to use them. Let’s describe the way fighting goes on this level:\n\n1) The boss has two parameters: max — the initial amount of health and reg — regeneration rate per second.\n\n2) Every scroll also has two parameters: powi — spell power measured in percents — the maximal amount of health counted off the initial one, which allows to use the scroll (i.e. if the boss has more than powi percent of health the scroll cannot be used); and dmgi the damage per second inflicted upon the boss if the scroll is used. As soon as a scroll is used it disappears and another spell is cast upon the boss that inflicts dmgi of damage per second upon him until the end of the game.\n\nDuring the battle the actions per second are performed in the following order: first the boss gets the damage from all the spells cast upon him, then he regenerates reg of health (at the same time he can’t have more than max of health), then the player may use another scroll (no more than one per second).\n\nThe boss is considered to be defeated if at the end of a second he has nonpositive ( ≤ 0) amount of health.\n\nHelp Petya to determine whether he can win with the set of scrolls available to him and if he can, determine the minimal number of seconds he needs to do it.\n\nInput\n\nThe first line contains three integers N, max and reg (1 ≤ N, max, reg ≤ 1000) –– the amount of scrolls and the parameters of the boss. The next N lines contain two integers powi and dmgi each — the parameters of the i-th scroll (0 ≤ powi ≤ 100, 1 ≤ dmgi ≤ 2000). \n\nOutput\n\nIn case Petya can’t complete this level, output in the single line NO.\n\nOtherwise, output on the first line YES. On the second line output the minimal time after which the boss can be defeated and the number of used scrolls. In the next lines for each used scroll output space-separated number of seconds passed from the start of the battle to the moment the scroll was used and the number of the scroll. Scrolls are numbered starting from 1 in the input order. The first scroll is considered to be available to be used after 0 seconds.\n\nOutput scrolls in the order they were used. It is not allowed to use scrolls after the boss is defeated.\n\nExamples\n\nInput\n\n2 10 3\n100 3\n99 1\n\n\nOutput\n\nNO\n\n\nInput\n\n2 100 10\n100 11\n90 9\n\n\nOutput\n\nYES\n19 2\n0 1\n10 2",
@@ -377,7 +396,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "3c8ca6c4-5977-4b41-bd02-8c47a0967c59"
   },
   {
     "question": "The chef is trying to decode some pattern problems, Chef wants your help to code it. Chef has one number K to form a new pattern. Help the chef to code this pattern problem.\n\n-----Input:-----\n- First-line will contain $T$, the number of test cases. Then the test cases follow. \n- Each test case contains a single line of input, one integer $K$. \n\n-----Output:-----\nFor each test case, output as the pattern.\n\n-----Constraints-----\n- $1 \\leq T \\leq 100$\n- $1 \\leq K \\leq 100$\n\n-----Sample Input:-----\n4\n1\n2\n3\n4\n\n-----Sample Output:-----\n2\n23\n34\n234\n345\n456\n2345\n3456\n4567\n5678\n\n-----EXPLANATION:-----\nNo need, else pattern can be decode easily.",
@@ -396,7 +416,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "c1418bda-0260-4ae8-a32a-8b1fa1824735"
   },
   {
     "question": "King Tle4Ever of Time Limit Exceeded is really fascinated about Tic Tac Toe. He organizes a national level contest for Tic Tac Toe every year in Time Limit Exceeded. (Though I agree you need to be really stupid to loose a game of Tic Tac Toe but for the sake of question assume playing Tic Tac Toe for them is same as playing Chess for us :P ). \nEvery year the contest has lots of participants. This year there are n participants from all over the country. Seeing this huge participation he asks Moron a simple question.\nSuppose participant pi wins wi matches. The king wants to know the sum of wi^2 from 1 to n. Now as you already know Moron is not good with maths, he asks you to help him.\nGiven the value of n find the minimum and maximum value of sum of wi^2 from 1 to n. As values can be too large output the values mod 10^9+7.\n[Input]\nFirst line contains a single integer t denoting number of test cases.\nNext t lines contains a single integer n denoting the number of participants.\n\n[Output]\nFor each test case output the minimum and maximum value mod 10^9+7. Say minimum is minx and maximum is maxx than you should print \"minx maxx\".\n[Constraints]\n1 ≤ t ≤ 10^5\n3 ≤ n ≤ 10^9\nNOTE : n will be an odd integer\n\nSAMPLE INPUT\n2\n3\n5\n\nSAMPLE OUTPUT\n3 5\n20 30",
@@ -415,7 +436,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "bb12e040-10c3-41c8-9689-d61cb18bb1bb"
   },
   {
     "question": "On his Birthday, Utkarsh was given a gift he was most fond of. Utkarsh was given a box which contained lot of Binary Search Trees. When he started to examine the BST's, to his amazement he found that the box contained all possible BST's that can be made using the first N natural numbers.  \n\nBut he did not like very tall trees.  Therefore he threw all the BST's that had height greater than H out of the box.\nNow the next exciting thing he wanted to do was to count the sum of the integers that are present on the root of each of the remaining tree in the box.\n\nOutput the answer Modulo 1000000007\n\nCostraints\n0 < N,H ≤ 500  \n\nINPUT\nOne line containing N and H.\nOUTPUT\nThe answer to the problem.\n\nSAMPLE INPUT\n3 3\n\nSAMPLE OUTPUT\n10\n\nExplanation\n\nThere are  2 trees with 1 as root, 1 tree with 2 as root, 2 trees with 3 as root.\nTherefore 2 * 1 + 1 * 2 + 2 * 3 = 10",
@@ -434,7 +456,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "34824bd5-09d0-4a0c-b1ad-761f5337455d"
   },
   {
     "question": "$n$ students attended the first meeting of the Berland SU programming course ($n$ is even). All students will be divided into two groups. Each group will be attending exactly one lesson each week during one of the five working days (Monday, Tuesday, Wednesday, Thursday and Friday), and the days chosen for the groups must be different. Furthermore, both groups should contain the same number of students.\n\nEach student has filled a survey in which they told which days of the week are convenient for them to attend a lesson, and which are not.\n\nYour task is to determine if it is possible to choose two different week days to schedule the lessons for the group (the first group will attend the lesson on the first chosen day, the second group will attend the lesson on the second chosen day), and divide the students into two groups, so the groups have equal sizes, and for each student, the chosen lesson day for their group is convenient.\n\n\n-----Input-----\n\nThe first line contains a single integer $t$ ($1 \\le t \\le 10^4$) — the number of testcases.\n\nThen the descriptions of $t$ testcases follow.\n\nThe first line of each testcase contains one integer $n$ ($2 \\le n \\le 1000$) — the number of students.\n\nThe $i$-th of the next $n$ lines contains $5$ integers, each of them is $0$ or $1$. If the $j$-th integer is $1$, then the $i$-th student can attend the lessons on the $j$-th day of the week. If the $j$-th integer is $0$, then the $i$-th student cannot attend the lessons on the $j$-th day of the week.\n\nAdditional constraints on the input: for each student, at least one of the days of the week is convenient, the total number of students over all testcases doesn't exceed $10^5$.\n\n\n-----Output-----\n\nFor each testcase print an answer. If it's possible to divide the students into two groups of equal sizes and choose different days for the groups so each student can attend the lesson in the chosen day of their group, print \"YES\" (without quotes). Otherwise, print \"NO\" (without quotes).\n\n\n-----Examples-----\n\nInput\n2\n4\n1 0 0 1 0\n0 1 0 0 1\n0 0 0 1 0\n0 1 0 1 0\n2\n0 0 0 1 0\n0 0 0 1 0\nOutput\nYES\nNO\n\n\n-----Note-----\n\nIn the first testcase, there is a way to meet all the constraints. For example, the first group can consist of the first and the third students, they will attend the lessons on Thursday (the fourth day); the second group can consist of the second and the fourth students, and they will attend the lessons on Tuesday (the second day).\n\nIn the second testcase, it is impossible to divide the students into groups so they attend the lessons on different days.",
@@ -453,7 +476,8 @@
     "date": "2021-10-10",
     "picture_num": "0",
     "memory_limit": "256 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "4615cfd0-9fac-42be-9709-7cf11a1b7b80"
   },
   {
     "question": "We have an N \\times M grid. The square at the i-th row and j-th column will be denoted as (i,j). Particularly, the top-left square will be denoted as (1,1), and the bottom-right square will be denoted as (N,M). Takahashi painted some of the squares (possibly zero) black, and painted the other squares white.\n\nWe will define an integer sequence A of length N, and two integer sequences B and C of length M each, as follows:\n\n* A_i(1\\leq i\\leq N) is the minimum j such that (i,j) is painted black, or M+1 if it does not exist.\n* B_i(1\\leq i\\leq M) is the minimum k such that (k,i) is painted black, or N+1 if it does not exist.\n* C_i(1\\leq i\\leq M) is the maximum k such that (k,i) is painted black, or 0 if it does not exist.\n\n\n\nHow many triples (A,B,C) can occur? Find the count modulo 998244353.\n\nConstraints\n\n* 1 \\leq N \\leq 8000\n* 1 \\leq M \\leq 200\n* N and M are integers.\n\n\n\nPartial Score\n\n* 1500 points will be awarded for passing the test set satisfying N\\leq 300.\n\nConstraints\n\n* 1 \\leq N \\leq 8000\n* 1 \\leq M \\leq 200\n* N and M are integers.\n\nInput\n\nInput is given from Standard Input in the following format:\n\n\nN M\n\nOutput\n\nPrint the number of triples (A,B,C), modulo 998244353.\n\nExamples\n\nInput\n\n2 3\n\n\nOutput\n\n64\n\n\nInput\n\n4 3\n\n\nOutput\n\n2588\n\n\nInput\n\n17 13\n\n\nOutput\n\n229876268\n\n\nInput\n\n5000 100\n\n\nOutput\n\n57613837",
@@ -472,6 +496,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "6694215e-0f39-4081-b12b-8db684fb4508"
   }
 ]

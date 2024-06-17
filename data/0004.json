@@ -16,7 +16,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "8461a1c8-a306-43b0-aa9a-b369facfc755"
   },
   {
     "question": "There are N people, conveniently numbered 1 through N.\nWe want to divide them into some number of groups, under the following two conditions:\n - Every group contains between A and B people, inclusive.\n - Let F_i be the number of the groups containing exactly i people. Then, for all i, either F_i=0 or C≤F_i≤D holds.\nFind the number of these ways to divide the people into groups.\nHere, two ways to divide them into groups is considered different if and only if there exists two people such that they belong to the same group in exactly one of the two ways.\nSince the number of these ways can be extremely large, print the count modulo 10^9+7.\n\n-----Constraints-----\n - 1≤N≤10^3\n - 1≤A≤B≤N\n - 1≤C≤D≤N\n\n-----Input-----\nThe input is given from Standard Input in the following format:\nN A B C D\n\n-----Output-----\nPrint the number of ways to divide the people into groups under the conditions, modulo 10^9+7.\n\n-----Sample Input-----\n3 1 3 1 2\n\n-----Sample Output-----\n4\n\nThere are four ways to divide the people:\n - (1,2),(3)\n - (1,3),(2)\n - (2,3),(1)\n - (1,2,3)\nThe following way to divide the people does not count: (1),(2),(3). This is because it only satisfies the first condition and not the second.",
@@ -35,7 +36,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "72a2c08c-4fb2-4ce5-9c2d-1b1edd5989d3"
   },
   {
     "question": "Given an array of words and a width maxWidth, format the text such that each line has exactly maxWidth characters and is fully (left and right) justified.\n\nYou should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra spaces ' ' when necessary so that each line has exactly maxWidth characters.\n\nExtra spaces between words should be distributed as evenly as possible. If the number of spaces on a line do not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.\n\nFor the last line of text, it should be left justified and no extra space is inserted between words.\n\nNote:\n\n\n       A word is defined as a character sequence consisting of non-space characters only.\n       Each word's length is guaranteed to be greater than 0 and not exceed maxWidth.\n       The input array words contains at least one word.\n\n\nExample 1:\n\n\nInput:\nwords = [\"This\", \"is\", \"an\", \"example\", \"of\", \"text\", \"justification.\"]\nmaxWidth = 16\nOutput:\n[\n   \"This    is    an\",\n   \"example  of text\",\n   \"justification.  \"\n]\n\n\nExample 2:\n\n\nInput:\nwords = [\"What\",\"must\",\"be\",\"acknowledgment\",\"shall\",\"be\"]\nmaxWidth = 16\nOutput:\n[\n  \"What   must   be\",\n  \"acknowledgment  \",\n  \"shall be        \"\n]\nExplanation: Note that the last line is \"shall be    \" instead of \"shall     be\",\n             because the last line must be left-justified instead of fully-justified.\n             Note that the second line is also left-justified becase it contains only one word.\n\n\nExample 3:\n\n\nInput:\nwords = [\"Science\",\"is\",\"what\",\"we\",\"understand\",\"well\",\"enough\",\"to\",\"explain\",\n         \"to\",\"a\",\"computer.\",\"Art\",\"is\",\"everything\",\"else\",\"we\",\"do\"]\nmaxWidth = 20\nOutput:\n[\n  \"Science  is  what we\",\n  \"understand      well\",\n  \"enough to explain to\",\n  \"a  computer.  Art is\",\n  \"everything  else  we\",\n  \"do                  \"\n]",
@@ -54,7 +56,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "2a012396-6596-4e7b-88c2-55f7eca7fa96"
   },
   {
     "question": "Given a binary tree and an integer X. Your task is to complete the function countSubtreesWithSumX() that returns the count of the number of subtress having total node’s data sum equal to the value X.\nExample: For the tree given below:             \n              5\n            /    \\\n        -10     3\n        /    \\    /  \\\n      9     8  -4 7\nSubtree with sum 7:\n             -10\n            /      \\\n          9        8\nand one node 7.\nExample 1:\nInput:\n       5\n    /    \\\n  -10     3\n /   \\   /  \\\n 9   8 -4    7\nX = 7\nOutput: 2\nExplanation: Subtrees with sum 7 are\n[9, 8, -10] and [7] (refer the example\nin the problem description).\nExample 2:\nInput:\n    1\n  /  \\\n 2    3\nX = 5\nOutput: 0\nExplanation: No subtree has sum equal\nto 5.\nYour Task:\nYou don't need to read input or print anything. Your task is to complete the function countSubtreesWithSumX() which takes the root node and an integer X as inputs and returns the number of subtrees of the given Binary Tree having sum exactly equal to X.\nExpected Time Complexity: O(N).\nExpected Auxiliary Space: O(Height of the Tree).\nConstraints:\n1 <= N <= 10^{3}\n-10^{3} <= Node Value <= 10^{3}\n \nNote:The Input/Ouput format and Example given are used for system's internal purpose, and should be used by a user for Expected Output only. As it is a function problem, hence a user should not read any input from stdin/console. The task is to complete the function specified, and not to write the full code.",
@@ -73,7 +76,8 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(N)."
+    "Expected Time Complexity": "O(N).",
+    "uuid": "872315fd-9058-4e54-85cf-2128029feb36"
   },
   {
     "question": "We have an old building with n + 2 columns in a row. These columns support the ceiling. These columns are located in points with coordinates 0 = x0 < x1 < ... < xn < xn + 1. The leftmost and the rightmost columns are special, we will call them bearing, the other columns are ordinary. \n\nFor each column we know its durability di. Let's consider an ordinary column with coordinate x. Let's assume that the coordinate of the closest to it column to the left (bearing or ordinary) is a and the coordinate of the closest to it column to the right (also, bearing or ordinary) is b. In this task let's assume that this column supports the segment of the ceiling from point <image> to point <image> (here both fractions are considered as real division). If the length of the segment of the ceiling supported by the column exceeds di, then the column cannot support it and it crashes after a while, and after that the load is being redistributeed between the neighbouring columns according to the same principle.\n\n<image>\n\nThus, ordinary columns will be crashing for some time until the process stops at some state. One can prove that the set of the remaining columns doesn't depend on the order in which columns crash. If there are only two bearing columns left in the end, then we assume that the whole construction crashes under the weight of the roof. But if at least one ordinary column stays in addition to the bearing ones, then the building doesn't crash.\n\nTo make the building stronger, we can add one extra ordinary column of arbitrary durability d' at any (not necessarily integer) point 0 < x' < xn + 1. If point x' is already occupied by an ordinary column, it is replaced by a new one.\n\nYour task is to find out: what minimal durability can the added column have so that the building doesn't crash?\n\nInput\n\nThe first line contains integer n (1 ≤ n ≤ 105) — the number of ordinary columns.\n\nThe second line contains n + 2 integers x0, x1, ..., xn, xn + 1 (x0 = 0, xi < xi + 1 for 0 ≤ i ≤ n, xn + 1 ≤ 109) — the coordinates of the columns.\n\nThe third line contains n integers d1, d2, ..., dn (1 ≤ di ≤ 109).\n\nOutput\n\nPrint a single number — the minimum possible durability of the column that you need to add in order to make the building stay. If you do not have to add the column, please print 0. Your answer will be checked with the relative or absolute error 10 - 4.\n\nExamples\n\nInput\n\n2\n0 20 40 100\n15 40\n\n\nOutput\n\n10\n\n\nInput\n\n3\n0 4 10 28 30\n9 13 5\n\n\nOutput\n\n0",
@@ -92,7 +96,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "98f4cf6d-30a1-486b-92ee-e5d7c4c19c53"
   },
   {
     "question": "Given an array a of N integers a1, a2, a3, ... aN you have to find the longest alternating sub-sequence of this array .  \n\nAn alternating sequence b1, b2 ... bk, k ≥ 1 is a sequence that has the 2 following properties:\n1.|b1|<|b2|<|b3|<.....<|bk|\n2. The signs alternate between adjacent elements, i.e, if b1 > 0 then b2<0, b3 >0 and so on.\nAlternatively, if b1<0, then b2>0, b3<0 and so on.\n\nA sub sequence of array a is a sequence obtained by dropping some elements of the array a.\nHere is the formal definition.\n\nIt is guaranteed that the array a contains no element equal to 0.\n\nInput:\n\nThe first line contains a single integer N, denoting the size of the array.\nThe next line contains N integers , denoting the array a.  \n\nOutput:\n\nPrint a single integer - the length of the longest alternating sub-sequence.  \n\nConstraints:\n1 ≤ N ≤ 5000\n|ai| ≤ 10^9, ai not equal to 0  \n\nSAMPLE INPUT\n8\n1 2 -2 -3 5 -7 -8 10\n\nSAMPLE OUTPUT\n5\n\nExplanation\n\nOne of the longest alternating subsequence is\n1 -2 5 -7 10",
@@ -111,7 +116,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "501d669e-10eb-4906-b663-936881d6c294"
   },
   {
     "question": "You are given an array $A$, consisting of $n$ positive integers $a_1, a_2, \\dots, a_n$, and an array $B$, consisting of $m$ positive integers $b_1, b_2, \\dots, b_m$. \n\nChoose some element $a$ of $A$ and some element $b$ of $B$ such that $a+b$ doesn't belong to $A$ and doesn't belong to $B$. \n\nFor example, if $A = [2, 1, 7]$ and $B = [1, 3, 4]$, we can choose $1$ from $A$ and $4$ from $B$, as number $5 = 1 + 4$ doesn't belong to $A$ and doesn't belong to $B$. However, we can't choose $2$ from $A$ and $1$ from $B$, as $3 = 2 + 1$ belongs to $B$.\n\nIt can be shown that such a pair exists. If there are multiple answers, print any.\n\nChoose and print any such two numbers.\n\n\n-----Input-----\n\nThe first line contains one integer $n$ ($1\\le n \\le 100$) — the number of elements of $A$.\n\nThe second line contains $n$ integers $a_1, a_2, \\dots, a_n$ ($1 \\le a_i \\le 200$) — the elements of $A$.\n\nThe third line contains one integer $m$ ($1\\le m \\le 100$) — the number of elements of $B$.\n\nThe fourth line contains $m$ different integers $b_1, b_2, \\dots, b_m$ ($1 \\le b_i \\le 200$) — the elements of $B$.\n\nIt can be shown that the answer always exists.\n\n\n-----Output-----\n\nOutput two numbers $a$ and $b$ such that $a$ belongs to $A$, $b$ belongs to $B$, but $a+b$ doesn't belong to nor $A$ neither $B$.\n\nIf there are multiple answers, print any.\n\n\n-----Examples-----\nInput\n1\n20\n2\n10 20\n\nOutput\n20 20\nInput\n3\n3 2 2\n5\n1 5 7 7 9\n\nOutput\n3 1\n\nInput\n4\n1 3 5 7\n4\n7 5 3 1\n\nOutput\n1 1\n\n\n\n-----Note-----\n\nIn the first example, we can choose $20$ from array $[20]$ and $20$ from array $[10, 20]$. Number $40 = 20 + 20$ doesn't belong to any of those arrays. However, it is possible to choose $10$ from the second array too.\n\nIn the second example, we can choose $3$ from array $[3, 2, 2]$ and $1$ from array $[1, 5, 7, 7, 9]$. Number $4 = 3 + 1$ doesn't belong to any of those arrays.\n\nIn the third example, we can choose $1$ from array $[1, 3, 5, 7]$ and $1$ from array $[7, 5, 3, 1]$. Number $2 = 1 + 1$ doesn't belong to any of those arrays.",
@@ -130,7 +136,8 @@
     "date": "2019-12-31",
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "3890f14b-0bf8-45f1-a792-6b54c9653493"
   },
   {
     "question": "The police department of your city has just started its journey. Initially, they don’t have any manpower. So, they started hiring new recruits in groups.\n\nMeanwhile, crimes keeps occurring within the city. One member of the police force can investigate only one crime during his/her lifetime.\n\nIf there is no police officer free (isn't busy with crime) during the occurrence of a crime, it will go untreated.\n\nGiven the chronological order of crime occurrences and recruit hirings, find the number of crimes which will go untreated.\n\n\n-----Input-----\n\nThe first line of input will contain an integer n (1 ≤ n ≤ 10^5), the number of events. The next line will contain n space-separated integers.\n\nIf the integer is -1 then it means a crime has occurred. Otherwise, the integer will be positive, the number of officers recruited together at that time. No more than 10 officers will be recruited at a time.\n\n\n-----Output-----\n\nPrint a single integer, the number of crimes which will go untreated.\n\n\n-----Examples-----\nInput\n3\n-1 -1 1\n\nOutput\n2\n\nInput\n8\n1 -1 1 -1 -1 1 1 1\n\nOutput\n1\n\nInput\n11\n-1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1\n\nOutput\n8\n\n\n\n-----Note-----\n\nLets consider the second example:  Firstly one person is hired.  Then crime appears, the last hired person will investigate this crime.  One more person is hired.  One more crime appears, the last hired person will investigate this crime.  Crime appears. There is no free policeman at the time, so this crime will go untreated.  One more person is hired.  One more person is hired.  One more person is hired. \n\nThe answer is one, as one crime (on step 5) will go untreated.",
@@ -149,7 +156,8 @@
     "date": "2019-12-31",
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "f459ec84-5a2c-4410-ab1e-ae178e0a134c"
   },
   {
     "question": "Given an array of numbers, return an array, with each member of input array rounded to a nearest number, divisible by 5.\n\nFor example:\n```\nroundToFive([34.5, 56.2, 11, 13]);\n```\nshould return\n```\n[35, 55, 10, 15]\n```\n\n```if:python\nRoundings have to be done like \"in real life\": `22.5 -> 25`\n```",
@@ -168,7 +176,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "cb0e25de-aa20-4b82-a5c6-82bc5bcfbee4"
   },
   {
     "question": "Akaki, a patissier, can make N kinds of doughnut using only a certain powder called \"Okashi no Moto\" (literally \"material of pastry\", simply called Moto below) as ingredient. These doughnuts are called Doughnut 1, Doughnut 2, ..., Doughnut N. In order to make one Doughnut i (1 ≤ i ≤ N), she needs to consume m_i grams of Moto. She cannot make a non-integer number of doughnuts, such as 0.5 doughnuts.\n\nThe recipes of these doughnuts are developed by repeated modifications from the recipe of Doughnut 1. Specifically, the recipe of Doughnut i (2 ≤ i ≤ N) is a direct modification of the recipe of Doughnut p_i (1 ≤ p_i < i).\n\nNow, she has X grams of Moto. She decides to make as many doughnuts as possible for a party tonight. However, since the tastes of the guests differ, she will obey the following condition:\n\n* Let c_i be the number of Doughnut i (1 ≤ i ≤ N) that she makes. For each integer i such that 2 ≤ i ≤ N, c_{p_i} ≤ c_i ≤ c_{p_i} + D must hold. Here, D is a predetermined value.\n\n\n\nAt most how many doughnuts can be made here? She does not necessarily need to consume all of her Moto.\n\nConstraints\n\n* 2 ≤ N ≤ 50\n* 1 ≤ X ≤ 10^9\n* 0 ≤ D ≤ 10^9\n* 1 ≤ m_i ≤ 10^9 (1 ≤ i ≤ N)\n* 1 ≤ p_i < i (2 ≤ i ≤ N)\n* All values in input are integers.\n\nInput\n\nInput is given from Standard Input in the following format:\n\n\nN X D\nm_1\nm_2 p_2\n:\nm_N p_N\n\n\nOutput\n\nPrint the maximum number of doughnuts that can be made under the condition.\n\nExamples\n\nInput\n\n3 100 1\n15\n10 1\n20 1\n\n\nOutput\n\n7\n\n\nInput\n\n3 100 10\n15\n10 1\n20 1\n\n\nOutput\n\n10\n\n\nInput\n\n5 1000000000 1000000\n123\n159 1\n111 1\n135 3\n147 3\n\n\nOutput\n\n7496296",
@@ -187,7 +196,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "216c82fb-8b83-4739-a0b1-8bdc312593d1"
   },
   {
     "question": "Bangalore City, where peace prevails most of the time. Not everyone is a huge fan of peace, though. Certainly not Mr. XYZ, whose identity is not known to us - yet. Mr. XYZ has somehow managed to bring vampires and zombies to Bangalore City to attack and destroy the city.\n\nFatal Eagle, an ordinary citizen of the city is extremely worried on seeing his city being attacked by these weird creatures. But, as of now, he has no power to stop these creatures from their silent attacks. He wants to analyze these creatures firstly. He figured out some things about these creatures, like:\nZombies have power in terms of an EVEN number.\nVampires have power in terms of an ODD number.\n\nIf he sees a zombie or a vampire, he marks them in his list with their power. After generating the entire list of power of these creatures, he decides to arrange this data in the following manner:\nAll the zombies arranged in sorted manner of their power, followed by the total  power of zombies.  \nAll the vampires arranged in sorted manner of their power, followed by the total  power of vampires.\n\nYou've to help him produce the following list to help him save his city.\n\nInput constraints:\nThe first line of input will contain an integer — N, denoting the number of creatures. The next line will contain N integers denoting the elements of the list containing the power of zombies and vampires. \n\nOutput constraints:\nPrint the required list in a single line.\n\nConstraints:\n1 ≤ N ≤ 10^3\n1 ≤ Ni ≤ 10^3\n\nSAMPLE INPUT\n6\n2 3 10 12 15 22\n\nSAMPLE OUTPUT\n2 10 12 22 46 3 15 18",
@@ -206,7 +216,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "f6ccfb76-d3e7-491a-b5be-71bcc4bcadee"
   },
   {
     "question": "Dee Siduous is a botanist who specializes in trees. A lot of her research has to do with the formation of tree rings, and what they say about the growing conditions over the tree’s lifetime. She has a certain theory and wants to run some simulations to see if it holds up to the evidence gathered in the field.\n\nOne thing that needs to be done is to determine the expected number of rings given the outline of a tree. Dee has decided to model a cross section of a tree on a two dimenional grid, with the interior of the tree represented by a closed polygon of grid squares. Given this set of squares, she assigns rings from the outer parts of the tree to the inner as follows: calling the non-tree grid squares “ring $0$”, each ring $n$ is made up of all those grid squares that have at least one ring $(n-1)$ square as a neighbor (where neighboring squares are those that share an edge).\n\nAn example of this is shown in the figure below.\n\n Figure D.1 \n\nMost of Dee’s models have been drawn on graph paper, and she has come to you to write a program to do this automatically for her. This way she’ll use less paper and save some $\\ldots $ well, you know.\n\n-----Input-----\nThe input will start with a line containing two positive integers $n$ $m$ specifying the number of rows and columns in the tree grid, where $n, m \\leq 100$. After this will be $n$ rows containing $m$ characters each. These characters will be either ‘T’ indicating a tree grid square, or ‘.’.\n\n\n\n-----Output-----\nOutput a grid with the ring numbers. If the number of rings is less than 10, use two characters for each grid square; otherwise use three characters for each grid square. Right justify all ring numbers in the grid squares, and use ‘.’ to fill in the remaining characters.\n\nIf a row or column does not contain a ring number it should still be output, filled entirely with ‘.’s.\n\n-----Examples-----\nSample Input:\n6 6\n.TT...\nTTTT..\nTTTTT.\nTTTTT.\nTTTTTT\n..T...\nSample Output:\n...1.1......\n.1.2.2.1....\n.1.2.3.2.1..\n.1.2.3.2.1..\n.1.1.2.1.1.1\n.....1......",
@@ -225,7 +236,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "428bea53-6287-4cba-837c-5da4c9e715f6"
   },
   {
     "question": "Chef has an array of N numbers and a magic function which can swap two array values if their distance is strictly greater than K units. Since his friend Pishty is obsessed with sorted array, Chef wants to make the lexicographically minimum array possible by using this magic function. He can use this magic function any number of times. Help him find the solution.\n\nDistance: absolute difference of indices\nLexicographically minimum: Given two arrays P_{1},P_{2}….P_{r} and Q_{1},Q_{2}….Q_{r} of same length the first one is smaller than the second one for the lexicographical order, if P_{i}  < Q_{i} for the first i where P_{i} and Q_{i} differ. \n\n------ Input ------ \n\nFirst line of input contains two space separated integers N and K\nNext line contains N space separated integers A_{1}, A_{2}, ..., A_{N} denoting chef's array.\n\n------ Output ------ \n\nThe only line of output contains N space separated integers denoting the lexicographically minimum array possible after all such possible swap operations.\n\n------ Constraints ------ \n\n$1 ≤ N,K ≤ 10^{5}$\n$1 ≤ A_{i} ≤ 10^{9}$\n \n----- Sample Input 1 ------ \n6 2\n4 6 3 2 5 1\n----- Sample Output 1 ------ \n1 2 3 4 5 6\n----- explanation 1 ------ \nIn the first operation, Chef can use his magic function to swap 2 and 4 since their distance = 3 (greater than 2). New array formed: 2 6 3 4 5 1Similarly, he can now swap 2 and 1 to obtain: 1 6 3 4 5 2Finally he can swap 2 and 6 to obain: 1 2 3 4 5 6.This is the lexicographically minimum array possible.",
@@ -244,7 +256,8 @@
     "date": "2018-03-19",
     "picture_num": "0",
     "memory_limit": "50000 bytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "313a9b9e-9824-4c8a-9263-8f29462a5775"
   },
   {
     "question": "Given an array of integers nums, write a method that returns the \"pivot\" index of this array.\n\nWe define the pivot index as the index where the sum of the numbers to the left of the index is equal to the sum of the numbers to the right of the index.\n\nIf no such index exists, we should return -1. If there are multiple pivot indexes, you should return the left-most pivot index.\n\n\nExample 1:\n\nInput: \nnums = [1, 7, 3, 6, 5, 6]\nOutput: 3\nExplanation: \nThe sum of the numbers to the left of index 3 (nums[3] = 6) is equal to the sum of numbers to the right of index 3.\nAlso, 3 is the first index where this occurs.\n\n\n\nExample 2:\n\nInput: \nnums = [1, 2, 3]\nOutput: -1\nExplanation: \nThere is no index that satisfies the conditions in the problem statement.\n\n\n\nNote:\nThe length of nums will be in the range [0, 10000].\nEach element nums[i] will be an integer in the range [-1000, 1000].",
@@ -263,7 +276,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "cb7eaaf6-6bc4-473f-a842-82fb99cc1dd5"
   },
   {
     "question": "Write a method named `getExponent(n,p)` that returns the largest integer exponent `x` such that p^(x) evenly divides `n`. if `p<=1` the method should return `null`/`None` (throw an `ArgumentOutOfRange` exception in C#).",
@@ -282,7 +296,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "3c3bc8bd-5d25-4f0e-b563-e9d7545a7cbf"
   },
   {
     "question": "Chef has a binary string S of length N. \n\nIn one operation, Chef can:\nSelect two indices i and j (1 ≤ i, j ≤ N, i \\ne j) and flip S_{i} and S_{j}. (i.e. change 0 to 1 and 1 to 0)\n\nFor example, if S = 10010 and chef applys operation on i = 1 and j = 3 then: \\underline{1}0\\underline{0}10 \\rightarrow 00110.\n\nFind if it is possible to convert S to a palindrome by applying the above operation any (possibly zero) number of times.\n\nNote: A string is called a palindrome if it reads the same backwards and forwards, for e.g. 10001 and 0110 are palindromic strings.\n\n------ Input Format ------ \n\n- The first line contains a single integer T — the number of test cases. Then the test cases follow.\n- The first line of each test case contains an integer N — the length of the binary string S.\n- The second line of each test case contains a binary string S of length N containing 0s and 1s only.\n\n------ Output Format ------ \n\nFor each test case, output YES if it is possible to convert S to a palindrome. Otherwise, output NO.\n\nYou can print each character of the string in uppercase or lowercase. For example, the strings YES, yes, Yes, and yEs are all considered the same.\n\n------ Constraints ------ \n\n$1 ≤ T ≤ 10^{5}$\n$1 ≤ N ≤ 10^{5}$\n$S$ contains $0$ and $1$ only.\n- Sum of $N$ over all test cases does not exceed $2 \\cdot 10^{5}$.\n\n----- Sample Input 1 ------ \n3\n6\n101011\n2\n01\n7\n1110000\n\n----- Sample Output 1 ------ \nYES\nNO\nYES\n\n----- explanation 1 ------ \nTest case 1: We can perform the following operation: \n- Select $i = 3$ and $j = 5$. Then $10\\underline{1}0\\underline{1}1 \\rightarrow 100001$, which is a palindrome.\n\nTest case 2: It can be proven that we can not make $S$ a palindrome using the given operation.\n\nTest case 3: We can perform the following operations: \n- Select $i = 4$ and $j = 5$. Then $111\\underline{0}\\underline{0}00 \\rightarrow 1111100$\n- Select $i = 6$ and $j = 7$. Then $11111\\underline{0}\\underline{0} \\rightarrow 1111111$, which is a palindrome.",
@@ -301,7 +316,8 @@
     "date": "2022-10-12",
     "picture_num": "0",
     "memory_limit": "50000 bytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "c8929a80-e53c-4d18-b963-6352afed0ae5"
   },
   {
     "question": "During a voyage of the starship Hakodate-maru (see Problem A), researchers found strange synchronized movements of stars. Having heard these observations, Dr. Extreme proposed a theory of \"super stars\". Do not take this term as a description of actors or singers. It is a revolutionary theory in astronomy.\n\nAccording to this theory, stars we are observing are not independent objects, but only small portions of larger objects called super stars. A super star is filled with invisible (or transparent) material, and only a number of points inside or on its surface shine. These points are observed as stars by us.\n\nIn order to verify this theory, Dr. Extreme wants to build motion equations of super stars and to compare the solutions of these equations with observed movements of stars. As the first step, he assumes that a super star is sphere-shaped, and has the smallest possible radius such that the sphere contains all given stars in or on it. This assumption makes it possible to estimate the volume of a super star, and thus its mass (the density of the invisible material is known).\n\nYou are asked to help Dr. Extreme by writing a program which, given the locations of a number of stars, finds the smallest sphere containing all of them in or on it. In this computation, you should ignore the sizes of stars. In other words, a star should be regarded as a point. You may assume the universe is a Euclidean space.\n\n\n\nInput\n\nThe input consists of multiple data sets. Each data set is given in the following format.\n\n\nn\nx1 y1 z1\nx2 y2 z2\n...\nxn yn zn\n\n\nThe first line of a data set contains an integer n, which is the number of points. It satisfies the condition 4 ≤ n ≤ 30.\n\nThe locations of n points are given by three-dimensional orthogonal coordinates: (xi, yi, zi) (i = 1,..., n). Three coordinates of a point appear in a line, separated by a space character.\n\nEach value is given by a decimal fraction, and is between 0.0 and 100.0 (both ends inclusive). Points are at least 0.01 distant from each other.\n\nThe end of the input is indicated by a line containing a zero.\n\nOutput\n\nFor each data set, the radius ofthe smallest sphere containing all given points should be printed, each in a separate line. The printed values should have 5 digits after the decimal point. They may not have an error greater than 0.00001.\n\nExample\n\nInput\n\n4\n10.00000 10.00000 10.00000\n20.00000 10.00000 10.00000\n20.00000 20.00000 10.00000\n10.00000 20.00000 10.00000\n4\n10.00000 10.00000 10.00000\n10.00000 50.00000 50.00000\n50.00000 10.00000 50.00000\n50.00000 50.00000 10.00000\n0\n\n\nOutput\n\n7.07107\n34.64102",
@@ -320,7 +336,8 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "134.217728 megabytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "2387eae3-6ce1-4128-81f9-f5a7667c150b"
   },
   {
     "question": "Read problem statements in [Russian], [Mandarin Chinese], [Bengali], and [Vietnamese] as well.\n\nThere are three distinct points - A, B, C in the X-Y plane. Initially, you are located at point A. You want to reach the point C satisfying the following conditions:\nYou have to go through point B. \nYou can move in any of the four axis-parallel directions (+X, -X, +Y, -Y direction). However, you can make at most one turn in the path from A to C. \n\nDetermine if it is possible to reach the destination C satisfying the above conditions.\n\nNOTE:  \nOne turn means 90 ^ \\circ  clockwise or anticlockwise rotation along the direction of movement. For example, if you are moving towards the +X direction, after one turn you can move either in the +Y direction or in the -Y direction. Changing the direction by 180 ^ \\circ is not allowed.\n\n------ Input Format ------ \n\n- The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.\n- The first line of each test case contains two space-separated integers X_{A}, Y_{A}, denoting the coordinates of the starting point A.\n- The second line of each test case contains two space-separated integers X_{B}, Y_{B}, denoting the coordinates of the point B.\n- The third line of each test case contains two space-separated integers X_{C}, Y_{C}, denoting the coordinates of the finishing point C.\n\n------ Output Format ------ \n\nFor each test case, print a single line containing one string - \"YES\"(without quotes) if it is possible to reach the finishing point satisfying the above conditions, otherwise print \"NO\"(without quotes).\n\n------ Constraints ------ \n\n$1 ≤ T ≤ 2 \\cdot 10^{5}$\n$-10^{9} ≤ X_{A}, Y_{A}, X_{B}, Y_{B}, X_{C}, Y_{C} ≤ 10^{9}$\n- Three points are pairwise distinct\n\n----- Sample Input 1 ------ \n4\n1 1\n1 3\n3 3\n0 0\n2 2\n3 4\n5 2\n3 2\n1 2\n1 1\n-1 1\n10000 10000\n\n----- Sample Output 1 ------ \nYES\nNO\nYES\nNO\n----- explanation 1 ------ \n- Test case $1$:  You start moving in the $+Y$ direction from $A = (1, 1)$, after two-unit steps you reach the point $B = (1, 3)$. Then you make a clockwise turn at point $B$ and start moving towards the $+X$ direction. After two-unit steps, you reach the finishing point $C = (3, 3)$.\n\n- Test case $2$:  There is no possible way to reach the finishing point $C$ satisfying the above conditions. You have to make at least two turns in the path.\n\n- Test case $3$:  You start moving in the $-X$ direction from $A = (5, 2)$ . After 4 unit steps, you reach the finish point $C = (1, 2)$. In the path from $A$ to $C$, you go through the point $B = (3,2)$ and don't make any turn.",
@@ -339,6 +356,7 @@
     "date": "2021-07-20",
     "picture_num": "0",
     "memory_limit": "50000 bytes",
-    "Expected Time Complexity": null
+    "Expected Time Complexity": null,
+    "uuid": "4b5bf09e-9403-4a93-9712-d6a5a01c976f"
   }
 ]

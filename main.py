@@ -1,5 +1,6 @@
 import os
 import json
+import uuid  # Import uuid library
 from datasets import load_dataset
 
 def create_output_directory(directory):
@@ -12,6 +13,11 @@ def get_file_size(filepath):
 def save_chunk(chunk, output_dir, chunk_number):
     filename = f"{chunk_number:04d}.json"
     filepath = os.path.join(output_dir, filename)
+    
+    # Iterate over chunk and add UUID field
+    for example in chunk:
+        example['uuid'] = str(uuid.uuid4())  # Generate UUID and convert to string
+
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(chunk, f, ensure_ascii=False, indent=2)
     return get_file_size(filepath)
@@ -30,7 +36,6 @@ def chunk_dataset(dataset, output_dir, chunk_size_bytes=1024*1024*4):  # 1MB
             actual_size = save_chunk(current_chunk, output_dir, chunk_number)
             
             if actual_size > chunk_size_bytes:
-                # If the file is too large, delete it
                 os.remove(os.path.join(output_dir, f"{chunk_number:04d}.json"))
                 print(f"Deleted oversized chunk {chunk_number:04d}.json")
             else:
@@ -49,7 +54,6 @@ def chunk_dataset(dataset, output_dir, chunk_size_bytes=1024*1024*4):  # 1MB
             print(f"Deleted oversized chunk {chunk_number:04d}.json")
             chunk_number -= 1
 
-    # Rename files to ensure sequential numbering
     rename_files(output_dir)
 
 def rename_files(directory):
@@ -63,7 +67,6 @@ def rename_files(directory):
 def main(num_examples=10):
     output_directory = "data"
     
-    # Load only a subset of the dataset
     dataset = load_dataset("BAAI/TACO", split=f"train[:{num_examples}]")
     
     print(f"Loaded {dataset.num_rows} examples from the TACO dataset.")
@@ -71,5 +74,4 @@ def main(num_examples=10):
     print(f"Dataset has been chunked into JSON files in the '{output_directory}' directory.")
 
 if __name__ == "__main__":
-    # You can change this number to control how many examples you want to download
     main(num_examples=500)
