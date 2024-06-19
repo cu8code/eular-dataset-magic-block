@@ -16,8 +16,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "7a04ab65-a75f-44d7-821c-d899ccef1c35"
+    "Expected Time Complexity": null
   },
   {
     "question": "Pandaland is a country & has N cities inside it. The cities are numbered from 1 to N. There are N-1 roads connecting these cities. We can reach a city from another city from a unique path(sequence of roads). Each road is of length 1 unit. \nPanda lives in a city called bambooland, but his bro, Rishi, due to some circumstances lives in a different city called thugland. Now, Panda wants to hangout with Rishi as they are bros. Unfortunately, they get to know that the distance between their cities is the maximum in Pandaland, i.e. no two cities in Pandaland have distance greater than that between bambooland and thugland. So, Panda needs to know the distance he has to travel to meet his bro Rishi.\nHelp him out to find the distance between bambooland and thugland. \n\nINPUT:\n\nFirst line of Input contains an Integer N.\n\nNext N-1 lines contains two space-separated integers X,Y denoting there exists a road between X & Y.\n\nOUTPUT:\n\nPrint the answer in a Single line.\n\nConstraints:\n\n1<N ≤ 10^5\n\n1 ≤ X,Y ≤ N\n\nProblem Author: Rishi Kundu & Gaurav Sharma\n\nSAMPLE INPUT\n4\n1 2\n1 3\n1 4\n\nSAMPLE OUTPUT\n2",
@@ -36,8 +35,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "e0dd6fa7-2848-4cac-8d65-ea853a090ec7"
+    "Expected Time Complexity": null
   },
   {
     "question": "Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.\n\nNote: A leaf is a node with no children.\n\nExample:\n\nGiven the below binary tree and sum = 22,\n\n\n      5\n     / \\\n    4   8\n   /   / \\\n  11  13  4\n /  \\    / \\\n7    2  5   1\n\n\nReturn:\n\n\n[\n   [5,4,11,2],\n   [5,8,4,5]\n]",
@@ -56,8 +54,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "4bb00d61-eac7-4568-82bc-2b43667163d1"
+    "Expected Time Complexity": null
   },
   {
     "question": "Snuke loves puzzles.\nToday, he is working on a puzzle using S- and c-shaped pieces.\nIn this puzzle, you can combine two c-shaped pieces into one S-shaped piece, as shown in the figure below:\nSnuke decided to create as many Scc groups as possible by putting together one S-shaped piece and two c-shaped pieces.\nFind the maximum number of Scc groups that can be created when Snuke has N S-shaped pieces and M c-shaped pieces.\n\n-----Constraints-----\n - 1 ≤ N,M ≤ 10^{12}\n\n-----Input-----\nThe input is given from Standard Input in the following format:\nN M\n\n-----Output-----\nPrint the answer.\n\n-----Sample Input-----\n1 6\n\n-----Sample Output-----\n2\n\nTwo Scc groups can be created as follows:\n - Combine two c-shaped pieces into one S-shaped piece\n - Create two Scc groups, each from one S-shaped piece and two c-shaped pieces",
@@ -76,8 +73,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "afb236d3-7b79-418c-bd4d-6ab0d334af85"
+    "Expected Time Complexity": null
   },
   {
     "question": "You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.\n\n#Examples:\n~~~if-not:bf\n```\nKata.getMiddle(\"test\") should return \"es\"\n\nKata.getMiddle(\"testing\") should return \"t\"\n\nKata.getMiddle(\"middle\") should return \"dd\"\n\nKata.getMiddle(\"A\") should return \"A\"\n\n```\n~~~\n~~~if:bf\n```\nrunBF(\"test\\0\") should return \"es\"\n\nrunBF(\"testing\\0\") should return \"t\"\n\nrunBF(\"middle\\0\") should return \"dd\"\n\nrunBF(\"A\\0\") should return \"A\"\n\n```\n~~~\n\n#Input\n\nA word (string) of length `0 < str < 1000` (In javascript you may get slightly more than 1000 in some test cases due to an error in the test cases). You do not need to test for this. This is only here to tell you that you do not need to worry about your solution timing out.\n\n\n#Output\n\nThe middle character(s) of the word represented as a string.",
@@ -96,8 +92,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "b6d5cd28-fbb6-4a2f-93d2-57916af10609"
+    "Expected Time Complexity": null
   },
   {
     "question": "Given a string S contains 0's, 1's, and 2's, the task is to find the number of goals on the penalty.\n\t '1' stands for \"goal\".\n\t '0' stands for \"no goal\".\n\t '2' stands for a foul which gives a penalty.\nExample 1:\nInput: S = \"1012012112110\"\nOutput: 2\nExplanation: There are 3 penalties,\nof which he scores only 2.\n1012012112110\nExample 2:\nInput: S = \"111122\"\nOutput: 0\nExplanation: No goal on penalty\nYour Task:\nYou don't need to read input or print anything. Your task is to complete the function penaltyScore() which takes a string S as input and returns the goals count on the penalty. \nExpected Time Complexity: O(|S|).\nExpected Auxiliary Space: O(1).\nConstraints:\n1 <= |N| <= 10^{5}",
@@ -116,8 +111,7 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(|S|).",
-    "uuid": "232e61d3-0b8b-4532-8629-943c8764cbe9"
+    "Expected Time Complexity": "O(|S|)."
   },
   {
     "question": "The cat Fabre came up with a simple game using addition and decided to try it with his friend Audrey, also in the cat.\n\nThe rules of the game are as follows. First of all, choose a suitable positive integer and start from there. Each player selects two adjacent digits from that number, calculates the sum, and replaces it with the original two numbers. For example, if you choose the tens and hundreds digits of \"1234\", the next number will be \"154\". If you choose the tens and hundreds of \"5555\", it will be \"5105\". Such operations are repeated alternately until the number becomes one digit, and the player who cannot perform the operation loses.\n\nAn integer value at the start of the game is given. Create a program to determine which one will win when both the first player, Fabre, and the second player, Audrey, take the best strategy.\n\nNotes on Submission\n\nMultiple datasets are given in the above format. The first line of input data gives the number of datasets. Create a program that outputs the output for each data set in order in the above format.\n\n\n\nInput\n\nThe input consists of only one line with one positive integer of 1000 digits or less representing the number at the start of the game. The most significant digit is not 0.\n\nOutput\n\nPrint \"Fabre wins.\" If Fabre wins, \"Audrey wins.\" If Audrey wins, on one line. Note that you need to add a period at the end.\n\nExample\n\nInput\n\n3\n1234\n5555\n9\n\n\nOutput\n\nAudrey wins.\nFabre wins.\nAudrey wins.",
@@ -136,8 +130,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "134.217728 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "3611eab7-33b6-47fc-a3ab-0503c7aa7a82"
+    "Expected Time Complexity": null
   },
   {
     "question": "Appleman has a tree with n vertices. Some of the vertices (at least one) are colored black and other vertices are colored white.\n\nConsider a set consisting of k (0 ≤ k < n) edges of Appleman's tree. If Appleman deletes these edges from the tree, then it will split into (k + 1) parts. Note, that each part will be a tree with colored vertices.\n\nNow Appleman wonders, what is the number of sets splitting the tree in such a way that each resulting part will have exactly one black vertex? Find this number modulo 1000000007 (109 + 7).\n\nInput\n\nThe first line contains an integer n (2 ≤ n ≤ 105) — the number of tree vertices. \n\nThe second line contains the description of the tree: n - 1 integers p0, p1, ..., pn - 2 (0 ≤ pi ≤ i). Where pi means that there is an edge connecting vertex (i + 1) of the tree and vertex pi. Consider tree vertices are numbered from 0 to n - 1.\n\nThe third line contains the description of the colors of the vertices: n integers x0, x1, ..., xn - 1 (xi is either 0 or 1). If xi is equal to 1, vertex i is colored black. Otherwise, vertex i is colored white.\n\nOutput\n\nOutput a single integer — the number of ways to split the tree modulo 1000000007 (109 + 7).\n\nExamples\n\nInput\n\n3\n0 0\n0 1 1\n\n\nOutput\n\n2\n\n\nInput\n\n6\n0 1 1 0 4\n1 1 0 0 1 0\n\n\nOutput\n\n1\n\n\nInput\n\n10\n0 1 2 1 4 4 4 0 8\n0 0 0 1 0 1 1 0 0 1\n\n\nOutput\n\n27",
@@ -156,8 +149,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "89f37a3c-bfe4-422b-91c6-3f2515a66b7d"
+    "Expected Time Complexity": null
   },
   {
     "question": "Write a program which reads a sequence of $n$ integers $a_i (i = 1, 2, ... n)$, and prints the minimum value, maximum value and sum of the sequence.\n\nConstraints\n\n* $0 < n \\leq 10000$\n* $-1000000 \\leq a_i \\leq 1000000$\n\nInput\n\nIn the first line, an integer $n$ is given. In the next line, $n$ integers $a_i$ are given in a line.\n\nOutput\n\nPrint the minimum value, maximum value and sum in a line. Put a single space between the values.\n\nExample\n\nInput\n\n5\n10 1 5 4 17\n\n\nOutput\n\n1 17 37",
@@ -176,8 +168,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "134.217728 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "19e1e9e6-cf6b-4256-919f-e2cb79774cc7"
+    "Expected Time Complexity": null
   },
   {
     "question": "Madoka wants to enter to \"Novosibirsk State University\", but in the entrance exam she came across a very difficult task:\n\nGiven an integer $n$, it is required to calculate $\\sum{\\operatorname{lcm}(c, \\gcd(a, b))}$, for all triples of positive integers $(a, b, c)$, where $a + b + c = n$.\n\nIn this problem $\\gcd(x, y)$ denotes the greatest common divisor of $x$ and $y$, and $\\operatorname{lcm}(x, y)$ denotes the least common multiple of $x$ and $y$.\n\nSolve this problem for Madoka and help her to enter to the best university!\n\n\n-----Input-----\n\nThe first and the only line contains a single integer $n$ ($3 \\le n \\le 10^5$).\n\n\n-----Output-----\n\nPrint exactly one interger — $\\sum{\\operatorname{lcm}(c, \\gcd(a, b))}$. Since the answer can be very large, then output it modulo $10^9 + 7$.\n\n\n-----Examples-----\n\nInput\n3\nOutput\n1\nInput\n5\nOutput\n11\nInput\n69228\nOutput\n778304278\n\n\n-----Note-----\n\nIn the first example, there is only one suitable triple $(1, 1, 1)$. So the answer is $\\operatorname{lcm}(1, \\gcd(1, 1)) = \\operatorname{lcm}(1, 1) = 1$.\n\nIn the second example, $\\operatorname{lcm}(1, \\gcd(3, 1)) + \\operatorname{lcm}(1, \\gcd(2, 2)) + \\operatorname{lcm}(1, \\gcd(1, 3)) + \\operatorname{lcm}(2, \\gcd(2, 1)) + \\operatorname{lcm}(2, \\gcd(1, 2)) + \\operatorname{lcm}(3, \\gcd(1, 1)) = \\operatorname{lcm}(1, 1) + \\operatorname{lcm}(1, 2) + \\operatorname{lcm}(1, 1) + \\operatorname{lcm}(2, 1) + \\operatorname{lcm}(2, 1) + \\operatorname{lcm}(3, 1) = 1 + 2 + 1 + 2 + 2 + 3 = 11$",
@@ -196,8 +187,7 @@
     "date": "2022-09-02",
     "picture_num": "0",
     "memory_limit": "256 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "2c74de22-7245-4b62-8e76-907e35495166"
+    "Expected Time Complexity": null
   },
   {
     "question": "The Quarkgo Empire Expeditionary Force is an evil organization that plans to invade the Earth. In keeping with the tradition of the invaders, they continued to send monsters at a pace of one every week, targeting the area around Tokyo in Japan. However, each time, five warriors calling themselves the Human Squadron Earth Five appeared, and the monster who was rampaging in the city was easily defeated.\n\nWalzard Thru (Earth name: Genmasa) is a female executive of the Quarkgo Empire Expeditionary Force who is seriously worried about such a situation. She had a headache under a commander who wouldn't learn anything from her weekly defeat, or a genius scientist who repeated some misplaced inventions.\n\nMeanwhile, the next operation was decided to send the blood-sucking monster Dracula to Japan. Dracula is a terrifying monster who turns a blood-sucking human into Dracula. Humans who have been sucked by Dracula also suck the blood of other humans to increase their fellow Dracula. In this way, the strategy is to fill the entire earth with Dracula.\n\nUpon hearing this, Walzard soon realized. This strategy is different from the usual sequel strategy such as taking over a kindergarten bus. It's rare for that bad commander to have devised it, and it has the potential to really conquer the Earth.\n\nThe momentum of the game is terrifying. Dracula, who landed on the ground, quickly increased the number of friends. If we went on like this, the invasion of the earth seemed to be just a stone's throw away. However, at that moment, a strong and unpleasant premonition ran through Walzard's mind. No way, if this monster, the original is defeated, his friends will not be wiped out, right?\n\nWhen I asked the scientist who designed and developed Dracula in a hurry, he was still worried about Walzard. It is designed so that when the original Dracula is destroyed, all humans who have sucked blood will return to their original state. Don't be foolish developer. Why did you add such an extra function!\n\nWalzard jumped to the developer and decided to kick his knee, and immediately started the original recovery work. No matter how much the original and the fake look exactly the same, if nothing is done, it is visible that the rushed Earth Five will see through the original for some reason and be defeated.\n\nAccording to the developers, all Draculaized humans weigh the same, but the original Dracula is a little heavier. Then you should be able to find the original by using only the balance. You must find and retrieve the original Dracula as soon as possible before the Earth Five appears.\n\n\n\nInput\n\nN\n\nThe integer N (2 ≤ N ≤ 2,000,000,000) is written on the first line of the input. This represents the total number of Draculas, both original and fake.\n\nOutput\n\nIn the worst case, how many times is it enough to use the balance to find one original from the N Draculas using the balance? Output the minimum value. However, comparing the weights of several Draculas placed on the left and right plates of the balance is counted as one time.\n\nExamples\n\nInput\n\n8\n\n\nOutput\n\n2\n\n\nInput\n\n30\n\n\nOutput\n\n4\n\n\nInput\n\n2000000000\n\n\nOutput\n\n20",
@@ -216,8 +206,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "134.217728 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "e339a9dc-823e-4c22-b360-25c86816e29e"
+    "Expected Time Complexity": null
   },
   {
     "question": "A bracket sequence consisting of ‘(’ and ‘)’ is defined to be valid as follows: \n - An empty sequence is valid.\n - If $X$ is a valid bracket sequence, then $(X)$ is a valid bracket sequence.\n - If $X$ and $Y$ are valid bracket sequences, then the concatenation of $X$ and $Y$, $Z=XY$, is a valid bracket sequence.\n\nFor example, “(())”, “()()”, and “(()())()” are all valid bracket sequences, while “(” and “())” are invalid bracket sequences.\n\nYou get a bracket sequence from the professor of length $n$. However, it might not be valid at the moment. The professor asks you to check if it is possible to make the sequence valid by performing at most one segment inversion operation. That is, you may choose two 1-based indices $l$ and $r$ ($1~ \\leq ~ l~ \\leq ~ r~ \\leq ~ n$) and invert each bracket with an index in the closed interval $[l,r]$. After the inversion, a left bracket ‘(’ becomes a right bracket ‘)’, and a right bracket ‘)’ becomes a left bracket ‘(’.\n\nYou can make “())(” valid by inverting the segment $[3,4]$. You can make “()))” valid by inverting the segment $[3,3]$, or alternatively by inverting the segment $[2,2]$. However, there does not exist a segment you can invert to make “)))(” valid.\n\n-----Input-----\nThe input consists of one line containing between $1$ and $5000$ brackets.\n\n-----Output-----\nOutput “possible” if you can make the bracket sequence valid by performing at most one segment inversion, or “impossible” otherwise.\n\n-----Examples-----\nSample Input 1:\n()))\nSample Output 1:\npossible\n\nSample Input 2:\n)))(\nSample Output 2:\nimpossible",
@@ -236,8 +225,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "6bc57177-960f-4871-9c98-d214d76ecda0"
+    "Expected Time Complexity": null
   },
   {
     "question": "The city of Hackerland has formed a new football club and wants to participate in the upcoming Football League of their country. The coach is worried that they will not be able to qualify because they don't have a famous footballer in their team. The assistant coach suggests that the team should buy Cristiano Ronaldo as he can single-handedly get their team qualified.  \n\nOn day 1, today, the club has to pay 'A' HackerCoins in order to buy Ronaldo. After each passing day, the price of buying Ronaldo becomes A times the price on the previous day. Any normal person would buy him on the 1^{st} day itself as the price will be the lowest but since the coach always failed in high school Mathematics, he wants 'B' days to think before making him an offer.  \n\nAs the coach doesn't know how to calculate the price of Ronaldo on the B^{th} day, he has asked for your help.  \n\nYour task is to tell the price of Ronaldo on the B^{th} day. Since, the price can be a very large number, please tell him the price modulo 10^{9} + 7.\n\nInput Format \n\nThe first line contains an integer T, the number of testcases. It's followed by T lines. \n\nEach testcase will contain two integers A & B separated by a space.  \n\nOutput Format \n\nOutput T lines, each corresponding to the answer of the testcase.  \n\nConstraints \n\n1 <= T <= 10 \n\n1 <= A,B <= 10100000 \n\nA % (10^{9} + 7) != 0\n\nNote \n\nBoth integers will have a maximum of 100000 digits.  \n\nSample Input #00:  \n\n5\n3 2\n4 5\n7 4\n34534985349875439875439875349875 93475349759384754395743975349573495\n34543987529435983745230948023948 3498573497543987543985743989120393097595572309482304\n\nSample Output #00:  \n\n9\n1024\n2401\n735851262\n985546465\n\nExplanation #00:  \n\nAs value of 3^{2} = 9, So output for first case will be 9. \n\nSimilarly 4^{5} modulo (10^{9} + 7) = 1024 \n\nSimilarly 7^{4} modulo (10^{9} + 7) = 2401 \n\nSimilarly we can do for others.",
@@ -256,8 +244,7 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "061568db-bd2b-4c82-9fef-4e916c2afb44"
+    "Expected Time Complexity": null
   },
   {
     "question": "Alice and Bob decided to eat some fruit. In the kitchen they found a large bag of oranges and apples. Alice immediately took an orange for herself, Bob took an apple. To make the process of sharing the remaining fruit more fun, the friends decided to play a game. They put multiple cards and on each one they wrote a letter, either 'A', or the letter 'B'. Then they began to remove the cards one by one from left to right, every time they removed a card with the letter 'A', Alice gave Bob all the fruits she had at that moment and took out of the bag as many apples and as many oranges as she had before. Thus the number of oranges and apples Alice had, did not change. If the card had written letter 'B', then Bob did the same, that is, he gave Alice all the fruit that he had, and took from the bag the same set of fruit. After the last card way removed, all the fruit in the bag were over.\n\nYou know how many oranges and apples was in the bag at first. Your task is to find any sequence of cards that Alice and Bob could have played with.\n\nInput\n\nThe first line of the input contains two integers, x, y (1 ≤ x, y ≤ 1018, xy > 1) — the number of oranges and apples that were initially in the bag.\n\nOutput\n\nPrint any sequence of cards that would meet the problem conditions as a compressed string of characters 'A' and 'B. That means that you need to replace the segments of identical consecutive characters by the number of repetitions of the characters and the actual character. For example, string AAABAABBB should be replaced by string 3A1B2A3B, but cannot be replaced by 2A1A1B2A3B or by 3AB2A3B. See the samples for clarifications of the output format. The string that you print should consist of at most 106 characters. It is guaranteed that if the answer exists, its compressed representation exists, consisting of at most 106 characters. If there are several possible answers, you are allowed to print any of them.\n\nIf the sequence of cards that meet the problem statement does not not exist, print a single word Impossible.\n\nExamples\n\nInput\n\n1 4\n\n\nOutput\n\n3B\n\n\nInput\n\n2 2\n\n\nOutput\n\nImpossible\n\n\nInput\n\n3 2\n\n\nOutput\n\n1A1B\n\nNote\n\nIn the first sample, if the row contained three cards with letter 'B', then Bob should give one apple to Alice three times. So, in the end of the game Alice has one orange and three apples, and Bob has one apple, in total it is one orange and four apples.\n\nIn second sample, there is no answer since one card is not enough for game to finish, and two cards will produce at least three apples or three oranges.\n\nIn the third sample, cards contain letters 'AB', so after removing the first card Bob has one orange and one apple, and after removal of second card Alice has two oranges and one apple. So, in total it is three oranges and two apples.",
@@ -276,8 +263,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "df661ed8-c60d-4679-8bd5-0592d559705b"
+    "Expected Time Complexity": null
   },
   {
     "question": "Yes, that's another problem with definition of \"beautiful\" numbers.\n\nLet's call a positive integer x beautiful if its decimal representation without leading zeroes contains even number of digits, and there exists a permutation of this representation which is palindromic. For example, 4242 is a beautiful number, since it contains 4 digits, and there exists a palindromic permutation 2442.\n\nGiven a positive integer s, find the largest beautiful number which is less than s.\n\nInput\n\nThe first line contains one integer t (1 ≤ t ≤ 105) — the number of testcases you have to solve.\n\nThen t lines follow, each representing one testcase and containing one string which is the decimal representation of number s. It is guaranteed that this string has even length, contains no leading zeroes, and there exists at least one beautiful number less than s.\n\nThe sum of lengths of s over all testcases doesn't exceed 2·105.\n\nOutput\n\nFor each testcase print one line containing the largest beautiful number which is less than s (it is guaranteed that the answer exists).\n\nExample\n\nInput\n\n4\n89\n88\n1000\n28923845\n\n\nOutput\n\n88\n77\n99\n28923839",
@@ -296,8 +282,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "20c3233b-9f99-448c-9d5b-2bd6f159d369"
+    "Expected Time Complexity": null
   },
   {
     "question": "Vasya likes taking part in Codeforces contests. When a round is over, Vasya follows all submissions in the system testing tab.\n\nThere are n solutions, the i-th of them should be tested on a_i tests, testing one solution on one test takes 1 second. The solutions are judged in the order from 1 to n. There are k testing processes which test solutions simultaneously. Each of them can test at most one solution at a time.\n\nAt any time moment t when some testing process is not judging any solution, it takes the first solution from the queue and tests it on each test in increasing order of the test ids. Let this solution have id i, then it is being tested on the first test from time moment t till time moment t + 1, then on the second test till time moment t + 2 and so on. This solution is fully tested at time moment t + a_i, and after that the testing process immediately starts testing another solution.\n\nConsider some time moment, let there be exactly m fully tested solutions by this moment. There is a caption \"System testing: d%\" on the page with solutions, where d is calculated as\n\n$$$d = round\\left(100⋅m/n\\right),$$$\n\nwhere round(x) = ⌊{x + 0.5}⌋ is a function which maps every real to the nearest integer.\n\nVasya calls a submission interesting if there is a time moment (possibly, non-integer) when the solution is being tested on some test q, and the caption says \"System testing: q%\". Find the number of interesting solutions.\n\nPlease note that in case when multiple processes attempt to take the first submission from the queue at the same moment (for instance, at the initial moment), the order they take the solutions does not matter.\n\nInput\n\nThe first line contains two positive integers n and k (1 ≤ n ≤ 1000, 1 ≤ k ≤ 100) standing for the number of submissions and the number of testing processes respectively.\n\nThe second line contains n positive integers a_1, a_2, …, a_n (1 ≤ a_i ≤ 150), where a_i is equal to the number of tests the i-th submission is to be run on.\n\nOutput\n\nOutput the only integer — the number of interesting submissions.\n\nExamples\n\nInput\n\n\n2 2\n49 100\n\n\nOutput\n\n\n1\n\n\nInput\n\n\n4 2\n32 100 33 1\n\n\nOutput\n\n\n2\n\n\nInput\n\n\n14 5\n48 19 6 9 50 20 3 42 38 43 36 21 44 6\n\n\nOutput\n\n\n5\n\nNote\n\nConsider the first example. At time moment 0 both solutions start testing. At time moment 49 the first solution is fully tested, so at time moment 49.5 the second solution is being tested on the test 50, and the caption says \"System testing: 50%\" (because there is one fully tested solution out of two). So, the second solution is interesting.\n\nConsider the second example. At time moment 0 the first and the second solutions start testing. At time moment 32 the first solution is fully tested, the third solution starts testing, the caption says \"System testing: 25%\". At time moment 32 + 24.5 = 56.5 the third solutions is being tested on test 25, the caption is still the same, thus this solution is interesting. After that the third solution is fully tested at time moment 32 + 33 = 65, the fourth solution is fully tested at time moment 65 + 1 = 66. The captions becomes \"System testing: 75%\", and at time moment 74.5 the second solution is being tested on test 75. So, this solution is also interesting. Overall, there are two interesting solutions.",
@@ -316,8 +301,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "b0ad83e1-7fe5-4276-8e14-2cfc0e993b25"
+    "Expected Time Complexity": null
   },
   {
     "question": "Given an array arr[] of n positive integers. The task is to find the maximum of j - i subjected to the constraint of arr[i] <= arr[j].\nExample 1:\nInput:\nn = 9\narr[] = {34, 8, 10, 3, 2, 80, 30, 33, 1}\nOutput: \n6\nExplanation: \nIn the given array arr[1] < arr[7]  satisfying \nthe required condition (arr[i] <= arr[j])  thus \ngiving the maximum difference of j - i which is\n6(7-1).\nExample 2:\nInput:\nN = 2\narr[] = {18, 17}\nOutput: \n0\nExplanation: \nWe can either take i and j as 0 and 0 \nor we cantake 1 and 1 both give the same result 0.\nYour Task:\nComplete the function maxIndexDiff() which takes array arr and size n, as input parameters and returns an integer representing the answer. You don't to print answer or take inputs. \nExpected Time Complexity: O(N)\nExpected Auxiliary Space: O(N)\nConstraints:\n1 ≤ N ≤ 10^{6}\n0 ≤ Arr[i] ≤ 10^{9}",
@@ -336,8 +320,7 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(N)",
-    "uuid": "87d6ea24-22bb-40fc-a49c-18ca2e6e7d9c"
+    "Expected Time Complexity": "O(N)"
   },
   {
     "question": "Problem\n\nYou bought a tree-shaped lighting fixture called a tree light.\n\nThis luminaire has n contacts, each numbered from 0 to n-1. Each contact consists of a light bulb that can express 10 levels of brightness and a device for switching the state of the light bulb. Initially, the brightness of the bulbs at all contacts is zero.\n\nIn addition, there is a cable wire between the contacts. All contacts are connected by n-1 cable lines and are hung with contact 0 facing up. Here, a set of contacts connected to the contact i via zero or more cable wires downward from the contact i is called a subtree rooted at the contact i.\n\nYou take one of the following actions with respect to this luminaire:\n\n* count (r, x, y): Counts the number of light bulbs with a brightness of x or more and y or less among the light bulbs of the contact contained in the subtree rooted at the contact r.\n* change (r, x, y): Change the brightness of all the bulbs of the contacts contained in the subtree rooted at the contact r to y, whose brightness is exactly x.\n\n\n\nSince q actions are given, output the number of light bulbs at that time each time count (r, x, y) is given.\n\nConstraints\n\n* 1 ≤ n ≤ 105\n* 1 ≤ q ≤ 105\n* 0 ≤ ui, vi, ri ≤ n−1 (ui ≠ vi)\n* 0 ≤ xi, yi ≤ 9 (when ti = 1 xi ≤ yi)\n\nInput\n\nThe input is given in the following format.\n\n\nn q\nu1 v1\nu2 v2\n...\nun−1 vn−1\nt1 r1 x1 y1\nt2 r2 x2 y2\n...\ntq rq xq yq\n\n\nThe number of contacts n that make up the tree light and the number of actions you take q are given on the first line, separated by blanks.\nCable line information is given on the following n-1 line, separated by blanks. The information of the i-th cable line indicates that the cable line i connects the contact ui and the contact vi with the contact ui facing up.\nn & plus; The actions you take are given in the q lines after the first line, separated by blanks. If ti = 1, it represents count (ri, xi, yi), and if ti = 2, it represents change (ri, xi, yi).\n\nOutput\n\nFor each count (ri, xi, yi), output the answer on one line.\n\nExamples\n\nInput\n\n7 5\n0 1\n1 2\n1 3\n0 4\n4 5\n4 6\n1 0 0 9\n2 0 0 5\n2 1 5 8\n1 0 5 8\n1 0 8 8\n\n\nOutput\n\n7\n7\n3\n\n\nInput\n\n7 5\n0 1\n1 2\n2 3\n0 4\n4 5\n5 6\n2 1 0 5\n2 4 0 6\n2 3 5 6\n2 5 6 5\n1 0 0 5\n\n\nOutput\n\n5",
@@ -356,8 +339,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "267.38688 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "119bf323-d59a-474a-9367-d1738f0243dd"
+    "Expected Time Complexity": null
   },
   {
     "question": "In this kata you have to correctly return who is the \"survivor\", ie: the last element of a Josephus permutation.\n\nBasically you have to assume that n people are put into a circle and that they are eliminated in steps of k elements, like this:\n\n```\njosephus_survivor(7,3) => means 7 people in a circle;\none every 3 is eliminated until one remains\n[1,2,3,4,5,6,7] - initial sequence\n[1,2,4,5,6,7] => 3 is counted out\n[1,2,4,5,7] => 6 is counted out\n[1,4,5,7] => 2 is counted out\n[1,4,5] => 7 is counted out\n[1,4] => 5 is counted out\n[4] => 1 counted out, 4 is the last element - the survivor!\n```\n\nThe above link about the \"base\" kata description will give you a more thorough insight about the origin of this kind of permutation, but basically that's all that there is to know to solve this kata.\n\n**Notes and tips:** using the solution to the other kata to check your function may be helpful, but as much larger numbers will be used, using an array/list to compute the number of the survivor may be too slow; you may assume that both n and k will always be >=1.",
@@ -376,8 +358,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "c80ff599-6001-4281-aef8-359876b72653"
+    "Expected Time Complexity": null
   },
   {
     "question": "Kontti language is a finnish word play game.\n\nYou add `-kontti` to the end of each word and then swap their characters until and including the first vowel (\"aeiouy\"); \n\nFor example the word `tame` becomes `kome-tantti`; `fruity` becomes `koity-fruntti` and so on.\n\nIf no vowel is present, the word stays the same.\n\nWrite a string method that turns a sentence into kontti language!",
@@ -396,8 +377,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "326bc1a7-8e48-475f-b220-f6405c7d45f7"
+    "Expected Time Complexity": null
   },
   {
     "question": "The year 2015 is almost over.\n\nLimak is a little polar bear. He has recently learnt about the binary system. He noticed that the passing year has exactly one zero in its representation in the binary system — 2015_10 = 11111011111_2. Note that he doesn't care about the number of zeros in the decimal representation.\n\nLimak chose some interval of years. He is going to count all years from this interval that have exactly one zero in the binary representation. Can you do it faster?\n\nAssume that all positive integers are always written without leading zeros.\n\n\n-----Input-----\n\nThe only line of the input contains two integers a and b (1 ≤ a ≤ b ≤ 10^18) — the first year and the last year in Limak's interval respectively.\n\n\n-----Output-----\n\nPrint one integer – the number of years Limak will count in his chosen interval.\n\n\n-----Examples-----\nInput\n5 10\n\nOutput\n2\n\nInput\n2015 2015\n\nOutput\n1\n\nInput\n100 105\n\nOutput\n0\n\nInput\n72057594000000000 72057595000000000\n\nOutput\n26\n\n\n\n-----Note-----\n\nIn the first sample Limak's interval contains numbers 5_10 = 101_2, 6_10 = 110_2, 7_10 = 111_2, 8_10 = 1000_2, 9_10 = 1001_2 and 10_10 = 1010_2. Two of them (101_2 and 110_2) have the described property.",
@@ -416,8 +396,7 @@
     "date": "2019-12-31",
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "66ac5d52-9650-4072-8c1e-379028971048"
+    "Expected Time Complexity": null
   },
   {
     "question": "You are given a positive integer $n$ and asked to make it larger by swapping pairs of its digits. For each swap, you can choose two digits at different positions and exchange their positions, as long as the swap does not result in a leading zero. What is the largest number you can get after performing exactly $k$ swaps?\n\n-----Input-----\nThe input has a single line with two integers $n$ ($100 \\leq n < 10^{18}$) and $k$ ($1 \\leq k \\leq 18$).\n\n-----Output-----\nOutput the largest number you can get after exactly $k$ swaps.\n\n-----Examples-----\nSample Input 1:\n1374 2\nSample Output 1:\n7413\n\nSample Input 2:\n210 1\nSample Output 2:\n201",
@@ -436,8 +415,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "1e217bcb-7435-442e-9d13-bd36ad4c2c66"
+    "Expected Time Complexity": null
   },
   {
     "question": "Hamming distance between two strings of equal length is the number of positions at which the corresponding symbols are different. You are given two strings; calculate the distance between them.\n\nInput\n\nThe input consists of two lines. Each line contains a string of characters 'A'-'Z' between 1 and 100 characters, inclusive. The strings have equal length.\n\nOutput\n\nOutput Hamming distance between the strings.\n\nExamples\n\nInput\n\nCODECHEF\nTOPCODER\n\n\nOutput\n\n6\n\n\nInput\n\nHAMMING\nDISTANC\n\n\nOutput\n\n6",
@@ -456,8 +434,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "3b9bc0bd-1bd9-4910-96bf-ed79c7074881"
+    "Expected Time Complexity": null
   },
   {
     "question": "In this Kata we focus on finding a sum S(n) which is the total number of divisors taken for all natural numbers less or equal to n. More formally, we investigate the sum of n components denoted by d(1) + d(2) + ... + d(n) in which for any i starting from 1 up to n the value of d(i) tells us how many distinct numbers divide i without a remainder. \n\nYour solution should work for possibly large values of n without a timeout.\nAssume n to be greater than zero and not greater than 999 999 999 999 999.\nBrute force approaches will not be feasible options in such cases. It is fairly simple to conclude that for every n>1 there holds a recurrence S(n) = S(n-1) + d(n) with initial case S(1) = 1.\n\nFor example:\nS(1) = 1\nS(2) = 3\nS(3) = 5\nS(4) = 8\nS(5) = 10\n\nBut is the fact useful anyway? If you find it is rather not, maybe this will help: \n\nTry to convince yourself that for any natural k, the number S(k) is the same as the number of pairs (m,n) that solve the inequality mn <= k in natural numbers.\nOnce it becomes clear, we can think of a partition of all the solutions into classes just by saying that a pair (m,n) belongs to the class indexed by n.\nThe question now arises if it is possible to count solutions of n-th class. If f(n) stands for the number of solutions that belong to n-th class, it means that S(k) = f(1) + f(2) + f(3) + ...\n\nThe reasoning presented above leads us to some kind of a formula for S(k), however not necessarily the most efficient one. Can you imagine that all the solutions to inequality mn <= k can be split using sqrt(k) as pivotal item?",
@@ -476,8 +453,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "d04a4e74-0d54-49db-bd2f-83cd532c65b2"
+    "Expected Time Complexity": null
   },
   {
     "question": "Once upon a time in the Kingdom of Far Far Away lived Sir Lancelot, the chief Royal General. He was very proud of his men and he liked to invite the King to come and watch drill exercises which demonstrated the fighting techniques and tactics of the squad he was in charge of. But time went by and one day Sir Lancelot had a major argument with the Fairy Godmother (there were rumors that the argument occurred after the general spoke badly of the Godmother's flying techniques. That seemed to hurt the Fairy Godmother very deeply). \n\nAs the result of the argument, the Godmother put a rather strange curse upon the general. It sounded all complicated and quite harmless: \"If the squared distance between some two soldiers equals to 5, then those soldiers will conflict with each other!\"\n\nThe drill exercises are held on a rectangular n × m field, split into nm square 1 × 1 segments for each soldier. Thus, the square of the distance between the soldiers that stand on squares (x1, y1) and (x2, y2) equals exactly (x1 - x2)2 + (y1 - y2)2. Now not all nm squad soldiers can participate in the drill exercises as it was before the Fairy Godmother's curse. Unless, of course, the general wants the soldiers to fight with each other or even worse... For example, if he puts a soldier in the square (2, 2), then he cannot put soldiers in the squares (1, 4), (3, 4), (4, 1) and (4, 3) — each of them will conflict with the soldier in the square (2, 2).\n\nYour task is to help the general. You are given the size of the drill exercise field. You are asked to calculate the maximum number of soldiers that can be simultaneously positioned on this field, so that no two soldiers fall under the Fairy Godmother's curse.\n\nInput\n\nThe single line contains space-separated integers n and m (1 ≤ n, m ≤ 1000) that represent the size of the drill exercise field.\n\nOutput\n\nPrint the desired maximum number of warriors.\n\nExamples\n\nInput\n\n2 4\n\n\nOutput\n\n4\n\nInput\n\n3 4\n\n\nOutput\n\n6\n\nNote\n\nIn the first sample test Sir Lancelot can place his 4 soldiers on the 2 × 4 court as follows (the soldiers' locations are marked with gray circles on the scheme):\n\n<image>\n\nIn the second sample test he can place 6 soldiers on the 3 × 4 site in the following manner:\n\n<image>",
@@ -496,8 +472,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "130a0dc0-6194-4f78-a292-9b8a801d1b92"
+    "Expected Time Complexity": null
   },
   {
     "question": "Serval soon said goodbye to Japari kindergarten, and began his life in Japari Primary School.\n\nIn his favorite math class, the teacher taught him the following interesting definitions.\n\nA parenthesis sequence is a string, containing only characters \"(\" and \")\".\n\nA correct parenthesis sequence is a parenthesis sequence that can be transformed into a correct arithmetic expression by inserting characters \"1\" and \"+\" between the original characters of the sequence. For example, parenthesis sequences \"()()\", \"(())\" are correct (the resulting expressions are: \"(1+1)+(1+1)\", \"((1+1)+1)\"), while \")(\" and \")\" are not. Note that the empty string is a correct parenthesis sequence by definition.\n\nWe define that $|s|$ as the length of string $s$. A strict prefix $s[1\\dots l]$ $(1\\leq l< |s|)$ of a string $s = s_1s_2\\dots s_{|s|}$ is string $s_1s_2\\dots s_l$. Note that the empty string and the whole string are not strict prefixes of any string by the definition.\n\nHaving learned these definitions, he comes up with a new problem. He writes down a string $s$ containing only characters \"(\", \")\" and \"?\". And what he is going to do, is to replace each of the \"?\" in $s$ independently by one of \"(\" and \")\" to make all strict prefixes of the new sequence not a correct parenthesis sequence, while the new sequence should be a correct parenthesis sequence.\n\nAfter all, he is just a primary school student so this problem is too hard for him to solve. As his best friend, can you help him to replace the question marks? If there are many solutions, any of them is acceptable.\n\n\n-----Input-----\n\nThe first line contains a single integer $|s|$ ($1\\leq |s|\\leq 3 \\cdot 10^5$), the length of the string.\n\nThe second line contains a string $s$, containing only \"(\", \")\" and \"?\".\n\n\n-----Output-----\n\nA single line contains a string representing the answer.\n\nIf there are many solutions, any of them is acceptable.\n\nIf there is no answer, print a single line containing \":(\" (without the quotes).\n\n\n-----Examples-----\nInput\n6\n(?????\n\nOutput\n(()())\nInput\n10\n(???(???(?\n\nOutput\n:(\n\n\n\n-----Note-----\n\nIt can be proved that there is no solution for the second sample, so print \":(\".",
@@ -516,8 +491,7 @@
     "date": "2019-12-31",
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "adba7930-29d7-42cf-a777-70ef0d636189"
+    "Expected Time Complexity": null
   },
   {
     "question": "You have n devices that you want to use simultaneously.\n\nThe i-th device uses a_{i} units of power per second. This usage is continuous. That is, in λ seconds, the device will use λ·a_{i} units of power. The i-th device currently has b_{i} units of power stored. All devices can store an arbitrary amount of power.\n\nYou have a single charger that can plug to any single device. The charger will add p units of power per second to a device. This charging is continuous. That is, if you plug in a device for λ seconds, it will gain λ·p units of power. You can switch which device is charging at any arbitrary unit of time (including real numbers), and the time it takes to switch is negligible.\n\nYou are wondering, what is the maximum amount of time you can use the devices until one of them hits 0 units of power.\n\nIf you can use the devices indefinitely, print -1. Otherwise, print the maximum amount of time before any one device hits 0 power.\n\n\n-----Input-----\n\nThe first line contains two integers, n and p (1 ≤ n ≤ 100 000, 1 ≤ p ≤ 10^9) — the number of devices and the power of the charger.\n\nThis is followed by n lines which contain two integers each. Line i contains the integers a_{i} and b_{i} (1 ≤ a_{i}, b_{i} ≤ 100 000) — the power of the device and the amount of power stored in the device in the beginning.\n\n\n-----Output-----\n\nIf you can use the devices indefinitely, print -1. Otherwise, print the maximum amount of time before any one device hits 0 power.\n\nYour answer will be considered correct if its absolute or relative error does not exceed 10^{ - 4}.\n\nNamely, let's assume that your answer is a and the answer of the jury is b. The checker program will consider your answer correct if $\\frac{|a - b|}{\\operatorname{max}(1, b)} \\leq 10^{-4}$.\n\n\n-----Examples-----\nInput\n2 1\n2 2\n2 1000\n\nOutput\n2.0000000000\nInput\n1 100\n1 1\n\nOutput\n-1\n\nInput\n3 5\n4 3\n5 2\n6 1\n\nOutput\n0.5000000000\n\n\n-----Note-----\n\nIn sample test 1, you can charge the first device for the entire time until it hits zero power. The second device has enough power to last this time without being charged.\n\nIn sample test 2, you can use the device indefinitely.\n\nIn sample test 3, we can charge the third device for 2 / 5 of a second, then switch to charge the second device for a 1 / 10 of a second.",
@@ -536,8 +510,7 @@
     "date": "2019-12-31",
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "c1cfc9a0-daa8-4995-8b5c-8c4c131a5c39"
+    "Expected Time Complexity": null
   },
   {
     "question": "Miyako came to the flea kingdom with a ukulele. She became good friends with local flea residents and played beautiful music for them every day.\n\nIn return, the fleas made a bigger ukulele for her: it has $n$ strings, and each string has $(10^{18} + 1)$ frets numerated from $0$ to $10^{18}$. The fleas use the array $s_1, s_2, \\ldots, s_n$ to describe the ukulele's tuning, that is, the pitch of the $j$-th fret on the $i$-th string is the integer $s_i + j$.\n\nMiyako is about to leave the kingdom, but the fleas hope that Miyako will answer some last questions for them.\n\nEach question is in the form of: \"How many different pitches are there, if we consider frets between $l$ and $r$ (inclusive) on all strings?\"\n\nMiyako is about to visit the cricket kingdom and has no time to answer all the questions. Please help her with this task!\n\nFormally, you are given a matrix with $n$ rows and $(10^{18}+1)$ columns, where the cell in the $i$-th row and $j$-th column ($0 \\le j \\le 10^{18}$) contains the integer $s_i + j$. You are to answer $q$ queries, in the $k$-th query you have to answer the number of distinct integers in the matrix from the $l_k$-th to the $r_k$-th columns, inclusive.\n\n\n-----Input-----\n\nThe first line contains an integer $n$ ($1 \\leq n \\leq 100\\,000$) — the number of strings.\n\nThe second line contains $n$ integers $s_1, s_2, \\ldots, s_n$ ($0 \\leq s_i \\leq 10^{18}$) — the tuning of the ukulele.\n\nThe third line contains an integer $q$ ($1 \\leq q \\leq 100\\,000$) — the number of questions.\n\nThe $k$-th among the following $q$ lines contains two integers $l_k$，$r_k$ ($0 \\leq l_k \\leq r_k \\leq 10^{18}$) — a question from the fleas.\n\n\n-----Output-----\n\nOutput one number for each question, separated by spaces — the number of different pitches.\n\n\n-----Examples-----\nInput\n6\n3 1 4 1 5 9\n3\n7 7\n0 2\n8 17\n\nOutput\n5 10 18\n\nInput\n2\n1 500000000000000000\n2\n1000000000000000000 1000000000000000000\n0 1000000000000000000\n\nOutput\n2 1500000000000000000\n\n\n\n-----Note-----\n\nFor the first example, the pitches on the $6$ strings are as follows.\n\n$$ \\begin{matrix} \\textbf{Fret} & \\textbf{0} & \\textbf{1} & \\textbf{2} & \\textbf{3} & \\textbf{4} & \\textbf{5} & \\textbf{6} & \\textbf{7} & \\ldots \\\\ s_1: & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & \\dots \\\\ s_2: & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & \\dots \\\\ s_3: & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & \\dots \\\\ s_4: & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & \\dots \\\\ s_5: & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & \\dots \\\\ s_6: & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & \\dots \\end{matrix} $$\n\nThere are $5$ different pitches on fret $7$ — $8, 10, 11, 12, 16$.\n\nThere are $10$ different pitches on frets $0, 1, 2$ — $1, 2, 3, 4, 5, 6, 7, 9, 10, 11$.",
@@ -556,8 +529,7 @@
     "date": "2019-12-31",
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "f64e7bf4-5642-4c3e-a34b-1c9681af7266"
+    "Expected Time Complexity": null
   },
   {
     "question": "Given a Binary Tree, you need to find the maximum value which you can get by subtracting the value of node B from the value of node A, where A and B are two nodes of the binary tree and A is an ancestor of B. \nExample 1:\nInput:\n    5\n /    \\\n2      1\nOutput: 4\nExplanation:The maximum difference we can\nget is 4, which is bewteen 5 and 1.\nExample 2:\nInput:\n      1\n    /    \\\n   2      3\n           \\\n            7\nOutput: -1\nExplanation:The maximum difference we can\nget is -1, which is between 1 and 2.\nYour Task:\nThe task is to complete the function maxDiff() which finds the maximum difference between the node and its ancestor.\nExpected Time Complexity: O(N).\nExpected Auxiliary Space: O(H).\nNote: H is the height of the tree.\nConstraints:\n2 <= Number of edges <= 10^{4}\n0 <= Data of a node <= 10^{5}\nNote: The Input/Output format and Examples given are used for the system's internal purpose, and should be used by a user for Expected Output only. As it is a function problem, hence a user should not read any input from the stdin/console. The task is to complete the function specified, and not to write the full code.",
@@ -576,8 +548,7 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(N).",
-    "uuid": "4fb21978-a4c7-4db4-b818-7f52116f9942"
+    "Expected Time Complexity": "O(N)."
   },
   {
     "question": "After getting bored of the monotonous routine of college, Chahak wants go back to the golden days of her life ‘Her Childhood’ when she used to enjoy playing games and one such game is \"Stapu\" (Hopscotch).\nChahak wants to play the game differently now. She plays the game on marble floor consisting of N parallelly placed rectangular tiles.\nShe can jump to next one or jump over one or two tiles at a time. There are some tiles considered ‘unlucky’ and number of such tiles is known to her.\nShe doesn’t want to step on them as she fears to lose the game.\nShe will win only if she completes the game starting from first tile and ending at the last one.\nHelp Chahak to find out if she can jump through all the tiles and win the game without stepping on the unlucky tiles.\n \n\nInput\n\nThe first line contains T, number of test cases.\nThe first line of each testcase contains two integers N and M -- total number of tiles (index starts from 1) and number of unlucky tiles respectively.\nThe second line contains M different space-separated integers Ai representing the number of the unlucky tile(in arbitrary order).\n\n \n\nOutput\n\nOutput \"YES\" if Chahak can win the game, otherwise print \"NO\" (without quotes).\n\n \n\nConstraints\n\n1 ≤ T ≤ 100\n1 ≤ N ≤ 10^9\n1 ≤ M ≤ 3000\n\n \n\nExample\nInput:\n2\n10 6\n2 4 8 3 6 7\n10 5\n2 4 5 7 9\n\nOutput:\nNO\nYES",
@@ -596,8 +567,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "6238cc11-12d0-4711-af9b-6f82f10d1cd7"
+    "Expected Time Complexity": null
   },
   {
     "question": "One of the most fundamental concepts learnt by a novice programmer is generation of Fibonacci Series. The Fibonacci Series is known to be of the form 0 1 1 2 3 5 8 13... etc. Usually a recursive approach to solve the problems is applied. The problem with the usual recursive approach is that multiple calls are made to calculate the same number, which makes it time in-efficient. This algorithm runs in time theta(n). However, if you use either a Dynamic Programming approach or Memoization Technique, we can develop an algorithm that computes the nth Fibonacci number using at most O(log n) arithmetic operations.\nYour task is to write a program, using Dynamic Programming or Memoization or otherwise that computes the nth Fibonacci Number in  O(log n). The series need not begin from 0 1.\nProblem Setter: \n\nInput\nThe input will contain the number of test cases 'T' an integer. The next 'T' line contain 3 unsigned integers A, B and N (in each line) where A and B are respectively the first and the second term of the Modified Fibonacci series and N is the Nth term to be calculated.\n Limits are as follows - 0 < A, B, T \n\n\n\n\nOutput\nYou have to print the Nth Fibonacci term for each test case in the new line.\n\nExample\n\nInput:\n7\n0 1 10\n2 3 5\n67 101 9\n23 46 35\n45 37 24\n45 27 1\n45 46 2\n\n\nOutput:\n34\n13\n2992\n343398096\n1857304\n45\n46",
@@ -616,8 +586,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "56433832-07aa-43ce-9216-6db7177e4e4b"
+    "Expected Time Complexity": null
   },
   {
     "question": "Everyone knows that chotu likes palindromic strings. One day, he found 2 ordinary strings s1 and s2. Now he wonders if he could make a palindrome by concatenating s1 and s2 in any order. i.e if s1s2 or s2s1 is a palindrome.\n\nInput\n\nFirst line of input contains T, denoting number of test cases.\nEach test case contains two lines, first line contains string s1 and second line contains string s2.\nOutput\nPrint T lines, either \"YES\" or \"NO\"(without quotes).\n\nConstrains\n1 ≤ T ≤ 1000\n1 ≤ |s1|, |s2| ≤ 10000\nBoth strings contain only lower case letters.\n\nSAMPLE INPUT\n2\naba\nbaba\nxy\nzw\n\nSAMPLE OUTPUT\nYES\nNO",
@@ -636,8 +605,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "082f37f5-fe56-4a82-a94b-ac8e9f67ec81"
+    "Expected Time Complexity": null
   },
   {
     "question": "You have two strings of lowercase English letters. You can perform two types of operations on the first string:\n\nAppend a lowercase English letter to the end of the string.\nDelete the last character of the string. Performing this operation on an empty string results in an empty string.\n\nGiven an integer, $\\boldsymbol{\\mbox{k}}$, and two strings, $\\boldsymbol{\\mathrm{~S~}}$ and $\\boldsymbol{\\boldsymbol{t}}$, determine whether or not you can convert $\\boldsymbol{\\mathrm{~S~}}$ to $\\boldsymbol{\\boldsymbol{t}}$ by performing exactly $\\boldsymbol{\\mbox{k}}$ of the above operations on $\\boldsymbol{\\mathrm{~S~}}$. If it's possible, print Yes.  Otherwise, print No.\n\nExample. \n$s=[a,b,c]$ \n\n$t=[d,e,f]$ \n\n$k=6$  \n\nTo convert $\\boldsymbol{\\mathrm{~S~}}$ to $\\boldsymbol{\\boldsymbol{t}}$, we first delete all of the characters in $3$ moves.  Next we add each of the characters of $\\boldsymbol{\\boldsymbol{t}}$ in order.  On the $6^{th}$ move, you will have the matching string.  Return Yes.  \n\nIf there were more moves available, they could have been eliminated by performing multiple deletions on an empty string.  If there were fewer than $\\boldsymbol{6}$ moves, we would not have succeeded in creating the new string.  \n\nFunction Description  \n\nComplete the appendAndDelete function in the editor below.  It should return a string, either Yes or No.  \n\nappendAndDelete has the following parameter(s):  \n\nstring s: the initial string  \nstring t: the desired string  \nint k: the exact number of operations that must be performed  \n\nReturns  \n\nstring: either Yes or No\n\nInput Format\n\nThe first line contains a string $\\boldsymbol{\\mathrm{~S~}}$, the initial string. \n\nThe second line contains a string $\\boldsymbol{\\boldsymbol{t}}$, the desired final string. \n\nThe third line contains an integer $\\boldsymbol{\\mbox{k}}$, the number of operations.\n\nConstraints\n\n$1\\leq|s|\\leq100$\n$1\\leq|t|\\leq100$\n$1\\leq k\\leq100$\n$\\boldsymbol{\\mathrm{~S~}}$ and $\\boldsymbol{\\boldsymbol{t}}$ consist of lowercase English letters, $\\text{ascii[a-z]}$.\n\nSample Input 0\nhackerhappy\nhackerrank\n9\n\nSample Output 0\nYes\n\nExplanation 0\n\nWe perform $5$ delete operations to reduce string $\\boldsymbol{\\mathrm{~S~}}$ to hacker. Next, we perform $4$ append operations (i.e., r, a, n, and k), to get hackerrank. Because we were able to convert $\\boldsymbol{\\mathrm{~S~}}$ to $\\boldsymbol{\\boldsymbol{t}}$ by performing exactly $k=9$ operations, we return Yes.\n\nSample Input 1\naba\naba\n7\n\nSample Output 1\nYes\n\nExplanation 1\n\nWe perform $4$ delete operations to reduce string $\\boldsymbol{\\mathrm{~S~}}$ to the empty string.  Recall that though the string will be empty after $3$ deletions, we can still perform a delete operation on an empty string to get the empty string. Next, we perform $3$ append operations (i.e., a, b, and a). Because we were able to convert $\\boldsymbol{\\mathrm{~S~}}$ to $\\boldsymbol{\\boldsymbol{t}}$ by performing exactly $k=7$ operations, we return Yes.\n\nSample Input 2\nashley\nash\n2\n\nSample Output 2\nNo\n\nExplanation 2\n\nTo convert ashley to ash a minimum of $3$ steps are needed. Hence we print No as answer.",
@@ -656,8 +624,7 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "f94d2d91-c8eb-4f5a-bca6-066e3791efba"
+    "Expected Time Complexity": null
   },
   {
     "question": "You are given an array A of n distinct sorted numbers. You are also given m queries of the form x. Your task is to output the index of the number x within the array. If x is not within the array output -1. \n\nConstraints\nThe values in the array will range from -10^9 to 10^9.\n1 ≤ n ≤ 10^5\n1 ≤ m ≤ 10^5\n\nInput and Output\nThe input consists of n on the first line followed by the array on the next. After that m on the next line followed by m queries. For each of the m queries, print on a seperate line, the index of the number in the array or -1 if the number is not in the array.\n\nSAMPLE INPUT\n5\n1 2 3 7 10\n3\n1\n2\n4\n\nSAMPLE OUTPUT\n0\n1\n-1",
@@ -676,8 +643,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "45d827d2-9887-4d8c-a9ea-c47e26a90332"
+    "Expected Time Complexity": null
   },
   {
     "question": "Finally, after purchasing a water cooler during the April long challenge, Chef noticed that his water cooler requires 2 liters of water to cool for one hour.\n\nHow much water (in liters) would be required by the cooler to cool for N hours?\n\n------ Input Format ------ \n\n- The first line of input will contain an integer T — the number of test cases. The description of T test cases follows.\n- The first and only line of each test case contains an integer N, as described in the problem statement. \n\n------ Output Format ------ \n\nFor each test case, output the number of liters of water required by the water cooler to cool for N hours. \n\n------ Constraints ------ \n\n$1 ≤ T ≤ 1000$\n$1 ≤ N ≤ 1000$\n\n----- Sample Input 1 ------ \n2\n1\n2\n----- Sample Output 1 ------ \n2\n4\n\n----- explanation 1 ------ \nTest case $1$: As mentioned in the problem statement, $2$ liters of water is required by the water cooler to cool for $1$ hour. \n\nTest case $2$: $4$ liters of water is required by the water cooler to cool for $2$ hours.",
@@ -696,8 +662,7 @@
     "date": "2022-04-16",
     "picture_num": "0",
     "memory_limit": "50000 bytes",
-    "Expected Time Complexity": null,
-    "uuid": "1985c18a-ddde-4f65-8e5d-f360a887c438"
+    "Expected Time Complexity": null
   },
   {
     "question": "The chef is trying to solve some pattern problems, Chef wants your help to code it. Chef has one number K to form a new pattern. Help the chef to code this pattern problem.\n\n-----Input:-----\n- First-line will contain $T$, the number of test cases. Then the test cases follow. \n- Each test case contains a single line of input, one integer $K$. \n\n-----Output:-----\nFor each test case, output as the pattern.\n\n-----Constraints-----\n- $1 \\leq T \\leq 100$\n- $1 \\leq K \\leq 100$\n\n-----Sample Input:-----\n4\n1\n2\n3\n4\n\n-----Sample Output:-----\n1\n21\n*1\n321\n*21\n**1\n4321\n*321\n**21\n***1\n\n-----EXPLANATION:-----\nNo need, else pattern can be decode easily.",
@@ -716,8 +681,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "569d146f-40f5-4a96-965e-32f72011ec44"
+    "Expected Time Complexity": null
   },
   {
     "question": "The range search problem consists of a set of attributed records S to determine which records from S intersect with a given range.\n\nFor n points on a plane, report a set of points which are within in a given range. Note that you do not need to consider insert and delete operations for the set.\n\nConstraints\n\n* 0 ≤ n ≤ 500,000\n* 0 ≤ q ≤ 20,000\n* -1,000,000,000 ≤ x, y, sx, tx, sy, ty ≤ 1,000,000,000\n* sx ≤ tx\n* sy ≤ ty\n* For each query, the number of points which are within the range is less than or equal to 100.\n\nInput\n\n\nn\nx0 y0\nx1 y1\n:\nxn-1 yn-1\nq\nsx0 tx0 sy0 ty0\nsx1 tx1 sy1 ty1\n:\nsxq-1 txq-1 syq-1 tyq-1\n\n\nThe first integer n is the number of points. In the following n lines, the coordinate of the i-th point is given by two integers xi and yi.\n\nThe next integer q is the number of queries. In the following q lines, each query is given by four integers, sxi, txi, syi, tyi.\n\nOutput\n\nFor each query, report IDs of points such that sxi ≤ x ≤ txi and syi ≤ y ≤ tyi. The IDs should be reported in ascending order. Print an ID in a line, and print a blank line at the end of output for the each query.\n\nExample\n\nInput\n\n6\n2 1\n2 2\n4 2\n6 2\n3 3\n5 4\n2\n2 4 0 4\n4 10 2 5\n\n\nOutput\n\n0\n1\n2\n4\n\n2\n3\n5",
@@ -736,8 +700,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "268.435456 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "457d9943-ece3-47eb-81c6-c01a2829954e"
+    "Expected Time Complexity": null
   },
   {
     "question": "PROBLEM SPECIFICATION:\nYou are given three positive integers 'n' , 'a'  and 'b' . In the given range from 1 to 'n' how many distinct numbers are completely divisible by\n'a' or 'b' or both?\nNOTE: The range includes both 1 and 'n'.\n\nINPUT SPECIFICATION:\nYou will be given 't' test cases. Each test case will contain three integers 'n' 'a' and 'b'.\n\nOUTPUT SPECIFICATION:\nIn a single line print the count of numbers that are divisible by 'a' and 'b'.\n\nCONSTRAINTS:\n0<t<100\nn<10^15\n0 ≤ a<10^6\n0 ≤ b<10^6\n\nNOTE: In case,if  'a' or 'b' or both of them are zero,print '-1'   (without quotes).\n\nSAMPLE INPUT\n1\n24 5 3\n\nSAMPLE OUTPUT\n11\n\nExplanation\n\nHere in the given range there are total 11 distinct numbers that are divisible by 5 or 3 or both.",
@@ -756,8 +719,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "cfe4dd87-b557-4c0c-ba93-ae6b9e044403"
+    "Expected Time Complexity": null
   },
   {
     "question": "Your car is old, it breaks easily. The shock absorbers are gone and you think it can handle about 15 more bumps before it dies totally.\n\nUnfortunately for you, your drive is very bumpy! Given a string showing either flat road (\"\\_\") or bumps (\"n\"), work out if you make it home safely. 15 bumps or under, return \"Woohoo!\", over 15 bumps return \"Car Dead\".",
@@ -776,8 +738,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "385aba01-a4ac-4294-bdc2-df3e108f9fa0"
+    "Expected Time Complexity": null
   },
   {
     "question": "The Tribonacci sequence Tn is defined as follows: \nT0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0.\nGiven n, return the value of Tn.\n \nExample 1:\nInput: n = 4\nOutput: 4\nExplanation:\nT_3 = 0 + 1 + 1 = 2\nT_4 = 1 + 1 + 2 = 4\n\nExample 2:\nInput: n = 25\nOutput: 1389537\n\n \nConstraints:\n\n0 <= n <= 37\nThe answer is guaranteed to fit within a 32-bit integer, ie. answer <= 2^31 - 1.",
@@ -796,8 +757,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "46b2e8db-30fb-444a-9ce2-0ff672b340cf"
+    "Expected Time Complexity": null
   },
   {
     "question": "Jimmy is performing in ByteLand today! Anthony the Ant is a huge fan of Jimmy’s music, so he can’t wait to get to the concert.\n\nByteLand consists of of $N$ intersections and $M$ roads. Every road is bidirectional and connects two distinct intersections. Anthony is currently on intersection $s$ and the concert is being held at intersection $t$. Anthony must get to the concert in $T$ seconds and he can travel at $1$ meter/second.\n\nUnfortunately for Anthony, he has a huge fear of spiders and ByteLand is full of spiders. Spiders reside at certain intersections in ByteLand. Anthony will choose a path from $s$ to $t$ that maximizes $D$, the minimum distance between any intersection on the path and any spider, such that the path can be travelled in no more than $T$ seconds.\n\n-----Input-----\nThe first line contains three integers $N$ ($2\\leq N\\leq 100000$), $M$ ($1\\leq M\\leq \\min (200000, n(n-1)/2)$), and $T$ ($1\\leq T\\leq 10^9$).\n\nEach of the next $M$ lines specify the roads. A road is described by three integers $u, v$ ($0\\leq u, v\\leq N-1$ and $u\\neq v$) and $d$ ($1\\leq d\\leq 10000$), which means that a $d$ meters long road connects intersections $u$ and $v$. It is guaranteed that at most one road connect any two intersections, and that there exists a path between any two intersections.\n\nThe next line contains $s, t$ ($0\\leq s, t\\leq N-1$ and $s\\neq t$, representing Anthony’s current location and the location of the concert. You may assume Anthony can always travel from $s$ to $t$ in no more than $T$ seconds.\n\nThe last line contains a integer $1\\leq K\\leq N$, denoting the number of intersections occupied by spiders, followed by $K$ integers $0\\leq a_ i\\leq N-1$ denoting the intersections with spiders.\n\n-----Output-----\nPrint the maximum $D$ (as defined earlier) for the path Anthony takes.\n\n-----Examples-----\nSample Input:\n4 4 3000\n0 1 1\n1 3 1\n2 0 2018\n2 3 42\n0 3\n1 1\nSample Output:\n1",
@@ -816,8 +776,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "13c6573d-fded-4dc4-ad20-e28340e5db4d"
+    "Expected Time Complexity": null
   },
   {
     "question": "Consider an array A of length N. You know that for all 1 ≤ i ≤ N, 0 ≤ A_{i} ≤ 10^{5}. We construct an array B of length N-1 such that, for all 1 ≤ i ≤ N - 1, B_{i} = min(A_{i}, A_{i + 1}).\n\nYou are given the array B, you need to find out the total number of distinct arrays A which we could have used to construct the given array B.\n\nThe answer may be large, so you need to find it modulo 10^{9} + 7.\n\n------ Input Format ------ \n\n- First line will contain T, number of testcases. Then the testcases follow.\n- The first line of each test case contains a single integer N\n- The second line of each test case contains N-1 space separated integers - the i^{th} of which is B_{i}\n\n------ Output Format ------ \n\nFor each testcase(in a new line), output the count of valid possibilities of array A modulo 10^{9} + 7.\n\n------ Constraints ------ \n\n$1 ≤ T ≤ 10$\n$2 ≤ N ≤ 10^{5}$\n$0 ≤ B_{i} ≤ 10^{5}$\n\n----- Sample Input 1 ------ \n3\n2\n100\n5\n3 9 8 4\n3\n10 12\n----- Sample Output 1 ------ \n199801\n199983\n199977\n----- explanation 1 ------ \nTest Case $1$: All valid arrays $A$ are of the form $[100, x]$ and $[x, 100]$ where $100 ≤ x ≤ 10^{5}$. Therefore, the answer is $(10^{5} - 100) + (10^{5} - 100 + 1) = 199801$.\n\nTest Case $3$: All valid arrays $A$ are of the form $[10, 12, x]$ and $[10, x, 12]$ where $12 ≤ x ≤ 10^{5}$. Therefore, the answer is $(10^{5} - 12) + (10^{5} - 12 + 1) = 199977$.",
@@ -836,8 +795,7 @@
     "date": "2021-09-13",
     "picture_num": "0",
     "memory_limit": "50000 bytes",
-    "Expected Time Complexity": null,
-    "uuid": "e1768fd8-8d60-47e4-878e-d64d4ceb85a7"
+    "Expected Time Complexity": null
   },
   {
     "question": "Cara is applying for several different jobs.\nThe online application forms ask her to respond within a specific character count.\nCara needs to check that her answers fit into the character limit.\n\nAnnoyingly, some application forms count spaces as a character, and some don't.\n\nYour challenge: \n\nWrite Cara a function `charCheck()` with the arguments:\n\n- `\"text\"`: a string containing Cara's answer for the question\n- `\"max\"`: a number equal to the maximum number of characters allowed in the answer\n- `\"spaces\"`: a boolean which is `True` if spaces are included in the character count and `False` if they are not\n\nThe function `charCheck()` should return an array: `[True, \"Answer\"]` , where `\"Answer\"` is equal to the original text, if Cara's answer is short enough.\n\nIf her answer `\"text\"` is too long, return an array: `[False, \"Answer\"]`. \nThe second element should be the original `\"text\"` string truncated to the length of the limit.\n\nWhen the `\"spaces\"` argument is `False`, you should remove the spaces from the `\"Answer\"`.\n\nFor example:\n\n- `charCheck(\"Cara Hertz\", 10, True)` should return `[ True, \"Cara Hertz\" ]`\n- `charCheck(\"Cara Hertz\", 9, False)` should return `[ True, \"CaraHertz\" ]`\n- `charCheck(\"Cara Hertz\", 5, True)` should return `[ False, \"Cara \" ]`\n- `charCheck(\"Cara Hertz\", 5, False)` should return `[ False, \"CaraH\" ]`",
@@ -856,8 +814,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "605668f4-268d-4608-bb51-9fe8aed043e7"
+    "Expected Time Complexity": null
   },
   {
     "question": "We have N points numbered 1 to N arranged in a line in this order.\n\nTakahashi decides to make an undirected graph, using these points as the vertices. In the beginning, the graph has no edge. Takahashi will do M operations to add edges in this graph. The i-th operation is as follows:\n\n* The operation uses integers L_i and R_i between 1 and N (inclusive), and a positive integer C_i. For every pair of integers (s, t) such that L_i \\leq s < t \\leq R_i, add an edge of length C_i between Vertex s and Vertex t.\n\n\n\nThe integers L_1, ..., L_M, R_1, ..., R_M, C_1, ..., C_M are all given as input.\n\nTakahashi wants to solve the shortest path problem in the final graph obtained. Find the length of the shortest path from Vertex 1 to Vertex N in the final graph.\n\nConstraints\n\n* 2 \\leq N \\leq 10^5\n* 1 \\leq M \\leq 10^5\n* 1 \\leq L_i < R_i \\leq N\n* 1 \\leq C_i \\leq 10^9\n\nInput\n\nInput is given from Standard Input in the following format:\n\n\nN M\nL_1 R_1 C_1\n:\nL_M R_M C_M\n\n\nOutput\n\nPrint the length of the shortest path from Vertex 1 to Vertex N in the final graph. If there is no shortest path, print `-1` instead.\n\nExamples\n\nInput\n\n4 3\n1 3 2\n2 4 3\n1 4 6\n\n\nOutput\n\n5\n\n\nInput\n\n4 2\n1 2 1\n3 4 2\n\n\nOutput\n\n-1\n\n\nInput\n\n10 7\n1 5 18\n3 4 8\n1 3 5\n4 7 10\n5 9 8\n6 10 5\n8 10 3\n\n\nOutput\n\n28",
@@ -876,8 +833,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "1024.0 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "f2cc26f8-b9a1-4f6a-b453-05da2f87fcdf"
+    "Expected Time Complexity": null
   },
   {
     "question": "Vova has won $n$ trophies in different competitions. Each trophy is either golden or silver. The trophies are arranged in a row.\n\nThe beauty of the arrangement is the length of the longest subsegment consisting of golden trophies. Vova wants to swap two trophies (not necessarily adjacent ones) to make the arrangement as beautiful as possible — that means, to maximize the length of the longest such subsegment.\n\nHelp Vova! Tell him the maximum possible beauty of the arrangement if he is allowed to do at most one swap.\n\n\n-----Input-----\n\nThe first line contains one integer $n$ ($2 \\le n \\le 10^5$) — the number of trophies.\n\nThe second line contains $n$ characters, each of them is either G or S. If the $i$-th character is G, then the $i$-th trophy is a golden one, otherwise it's a silver trophy. \n\n\n-----Output-----\n\nPrint the maximum possible length of a subsegment of golden trophies, if Vova is allowed to do at most one swap.\n\n\n-----Examples-----\nInput\n10\nGGGSGGGSGG\n\nOutput\n7\n\nInput\n4\nGGGG\n\nOutput\n4\n\nInput\n3\nSSS\n\nOutput\n0\n\n\n\n-----Note-----\n\nIn the first example Vova has to swap trophies with indices $4$ and $10$. Thus he will obtain the sequence \"GGGGGGGSGS\", the length of the longest subsegment of golden trophies is $7$. \n\nIn the second example Vova can make no swaps at all. The length of the longest subsegment of golden trophies in the sequence is $4$. \n\nIn the third example Vova cannot do anything to make the length of the longest subsegment of golden trophies in the sequence greater than $0$.",
@@ -896,8 +852,7 @@
     "date": "2019-12-31",
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "43753903-2dd8-4bdd-9a09-6cdf4e60f0d0"
+    "Expected Time Complexity": null
   },
   {
     "question": "H: About Our Effort-About Our Effort-\n\nproblem\n\n* I would appreciate it if you could consider this problem as an extra problem, and if possible, I would like you to enjoy the other problems first. I would like to challenge those who are willing to crush in this contest.\n\nD Sorry for the slow query for the problem. But we weren't just neglecting. We made an effort in our own way. I have asked such a question so that you can enjoy the scale of that effort.\n\nProblem: D Write a program that handles the server side of the problem.\n\nSince the goal of this problem is to create a program that really meets the requirements of the D problem, we do not consider the orientation / unsuitability of each language. Those who have achieved the fastest execution speed may be adopted as a judge program when it is recorded in AOJ, so please try it.\n\nInput format\n\nThe input is given in the following format.\n\n\nN\np_1 ... p_N\nQ\nl_1 r_1\n...\nl_Q r_Q\n\n\nThe first row gives the length N of the permutation p. In the second line, N integers representing the permutation p are given, separated by blanks. The third line gives an integer Q that represents the number of queries. The i-th line of the following Q line consists of two integers l_i and r_i separated by blanks, indicating that the query asks for the degree of complexity of the interval [l_i, r_i].\n\nThe input satisfies the following constraints.\n\n* 1 \\ ≤ N \\ ≤ 100,000\n* 1 \\ ≤ p_i \\ ≤ N, p_i \\ neq p_j (i \\ neq j)\n* 1 \\ ≤ Q \\ ≤ 200,000\n* 1 \\ ≤ l_i \\ ≤ r_i \\ ≤ N\n\n\n\nOutput format\n\nFor each Q query i, output the degree of complexity of the interval [l_i, r_i] of p to the i-line. However, the complex degree of the interval [l_i, r_i] of p is (the number of elements of \\\\ {(i, j) | p_i> p_j {\\ rm for} l \\ ≤ i <j \\ ≤ r \\\\}). Is defined as.\n\nInput example 1\n\n\nFour\n4 1 3 2\n2\n13\ntwenty four\n\n\nOutput example 1\n\n\n2\n1\n\n\nInput example 2\n\n\n1\n1\n1\n1 1\n\n\nOutput example 2\n\n\n0\n\n\n\n\n\nExample\n\nInput\n\n4\n4 1 3 2\n2\n1 3\n2 4\n\n\nOutput\n\n2\n1",
@@ -916,8 +871,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "536.870912 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "0c497a9d-be1f-4824-98c6-fd0662f43053"
+    "Expected Time Complexity": null
   },
   {
     "question": "One fateful spring evening Bergur was playing his favorite video game Striker-Count. Bergur is so good at Striker-Count he usually defeats his opponents without breaking a sweat. Therefore he’s been racking his brain for new ways to win with style. He decides to jump in the air, rotate a full circle and shoot one shot with his trusty PWA. But he’s been wondering, what is the maximum amount of opponents he can hit with one shot in this fashion.\n\nWe consider Bergur to positioned at the origin of a plane. His opponents are then provided as circles with a center somewhere in the plane and a radius. A single shot is then a ray from the origin and hits the opponent if and only if the ray intersects strictly more than one point of the opponent (i.e. grazing the opponent doesn’t count as a hit). It is guaranteed that no opponents include Bergur (the origin). Enemies might overlap however since they might be standing on top of one another. By sheer skill Bergur will still manage to hit both of them with a single shot if the ray intersects both circles.\n\n-----Input-----\nThe first line of the input contains an integer $1 \\leq n \\leq 10^5$, which denotes the number Bergur’s opponents present on the plane. Then $n$ lines follow, the $i$th of which contains three real numbers $-10^9 \\leq x_ i, y_ i \\leq 10^9$, $0 < r \\leq 10^9$ which denote an opponent centered at point $(x_ i, y_ i)$ in the plane with radius $r_ i$. All real numbers will have at most six digits after the decimal point. It is guaranteed that there is a neighbourhood around an optimal angle of radius $10^{-9}$ such that all angles in the neighbourhood give the same number of hit enemies.\n\n-----Output-----\nThe only line of the output should contain the maximum number of opponents Bergur can hit with one shot.\n\n-----Examples-----\nSample Input:\n5\n5 0 1\n10 0 1\n0 5 1\n0 -5 1\n-5 0 1\nSample Output:\n2",
@@ -936,8 +890,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "a89b69ab-5f7d-4e0d-ac17-62c5a73e30be"
+    "Expected Time Complexity": null
   },
   {
     "question": "This is the hard version of the problem. The only difference between the easy and hard versions is that in the hard one, there are no constraints on the number of employees in every department.\n\nChefCorp has N employees. Each employee belongs to exactly one of the M departments. Each department is headed by exactly one of the employees belonging to that department.\n\nThe management structure of ChefCorp is as follows:\nEach employee of a department (including its head) is *in contact* with every other employee of that department.\nThe head of each department is *in contact* with the heads of all the other departments.\n\nFor example, let N = 7, M = 3 and employees 1, \\textbf{2}, 3 belong to the first department, employees \\textbf{4}, 5 belong to the second department and employees \\textbf{6}, 7 belong to the third department (employees in bold represent the heads of the departments). The following pairs of employees are in contact with each other: (1, 2), (1, 3), (2, 3), (4, 5), (6, 7), (2, 4), (4, 6), (2, 6).\n\nHowever, due to some inexplicable reasons, ChefCorp loses all its data on the departments. Given the total number of employees N and every pair of employees who are *in contact* with each other, can you help recover the number of departments and the employees belonging to each of the departments?\n\n------ Input Format ------ \n\n- The first line contains a single integer T — the number of test cases. Then the test cases follow.\n- The first line of each test case contains a single integer N — the total number of employees in ChefCorp.\n- The second line of each test case contains a single integer K — the number of pairs of employees *in contact* with each other.\n- K lines follow. The i^{th} of these K lines contain two space-separated integers u_{i} and v_{i}, denoting that employee u_{i} is *in contact* with v_{i}.\n\n------ Output Format ------ \n\n- For each test case, output the following:\n- In the first line output M — the number of departments.\n- In the second line, output N space-separated integers D_{1}, D_{2}, \\ldots, D_{N} (1 ≤ D_{i} ≤ M) — denoting that the i^{th} employee belongs to the D_{i}^{th} department.\n- In the third line, output M space-separated integers H_{1}, H_{2}, \\ldots, H_{M} (1 ≤ H_{i} ≤ N, H_{i} \\neq H_{j} when i \\neq j) — denoting that the H_{i}^{th} employee is the head of the i^{th} department.\n\nIf there are multiple answers, output any. It is guaranteed that at least one solution always exists.\n\n------ Constraints ------ \n\n$1 ≤ T ≤ 1000$\n$2 ≤ N ≤ 1000$\n$1 ≤ K ≤ \\frac{N\\cdot(N-1)}{2}$\n$1 ≤ u_{i}, v_{i} ≤ N$\n$u_{i} \\neq v_{i}$ for each $1 ≤ i ≤ K$.\n- The sum of $N$ over all test cases does not exceed $3000$.\n\n----- Sample Input 1 ------ \n4\n7\n8\n1 2\n1 3\n2 3\n4 5\n6 7\n2 4\n4 6\n2 6\n2\n1\n1 2\n3\n2\n3 2\n3 1\n6\n8\n6 2\n5 4\n3 1\n5 2\n3 6\n2 1\n6 1\n2 3\n\n----- Sample Output 1 ------ \n3\n1 1 1 2 2 3 3\n2 4 6\n2\n1 2\n1 2\n2\n1 2 1\n3 2\n2\n1 1 1 2 2 1\n2 5\n\n----- explanation 1 ------ \nTest case 1: Explained in the problem statement.",
@@ -956,8 +909,7 @@
     "date": "2022-08-30",
     "picture_num": "0",
     "memory_limit": "50000 bytes",
-    "Expected Time Complexity": null,
-    "uuid": "a101f0e4-501b-4a89-9cea-15a24deaa649"
+    "Expected Time Complexity": null
   },
   {
     "question": "Given an integer array nums, return the sum of divisors of the integers in that array that have exactly four divisors.\nIf there is no such integer in the array, return 0.\n \nExample 1:\nInput: nums = [21,4,7]\nOutput: 32\nExplanation:\n21 has 4 divisors: 1, 3, 7, 21\n4 has 3 divisors: 1, 2, 4\n7 has 2 divisors: 1, 7\nThe answer is the sum of divisors of 21 only.\n\n \nConstraints:\n\n1 <= nums.length <= 10^4\n1 <= nums[i] <= 10^5",
@@ -976,8 +928,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "dad537b1-6a98-444f-b31e-56ee4de0532c"
+    "Expected Time Complexity": null
   },
   {
     "question": "Consider an array, $A=a_0,a_1,...,a_{n-1}$, of $n$ integers. We define the following terms:\n\nSubsequence \n\nA subsequence of $\\mbox{A}$ is an array that's derived by removing zero or more elements from $\\mbox{A}$ without changing the order of the remaining elements. Note that a subsequence may have zero elements, and this is called the empty subsequence.\n\nStrictly Increasing Subsequence \n\nA non-empty subsequence is strictly increasing if every element of the subsequence is larger than the previous element. \n\nSubarray \n\nA subarray of $\\mbox{A}$ is an array consisting of a contiguous block of $\\mbox{A}$'s elements in the inclusive range from index $\\boldsymbol{l}$ to index $\\textbf{r}$. Any subarray of $\\mbox{A}$ can be denoted by $A[l,r]=a_l,a_{l+1},...,a_r$.\n\nThe diagram below shows all possible subsequences and subarrays of $A=[2,1,3]$: \n\nWe define the following functions:\n\n$sum(l,r)=a_l+a_{l+1}+…+a_r$\n$inc(l,r)$ = the maximum sum of some strictly increasing subsequence in subarray $A[l,r]$\n$f(l,r)=sum(l,r)-inc(l,r)$\n\nWe define the goodness, $\\mathrm{~g~}$, of array $\\mbox{A}$ to be:\n\n$g=max\\ f(l,r)\\ \\text{for }\\ 0\\leq l\\leq r\\lt n$\n\nIn other words, $\\mathrm{~g~}$ is the maximum possible value of $f(l,r)$ for all possible subarrays of array $\\mbox{A}$. \n\nLet $m$ be the length of the smallest subarray such that $f(l,r)=g$. Given $\\mbox{A}$, find the value of $\\mathrm{~g~}$ as well as the number of subarrays such that $r-l+1=m$ and $f(l,r)=g$, then print these respective answers as space-separated integers on a single line.\n\nInput Format\n\nThe first line contains an integer, $n$, denoting number of elements in array $\\mbox{A}$. \n\nThe second line contains $n$ space-separated integers describing the respective values of $a_0,a_1,\\ldots,a_{n-1}$.\n\nConstraints\n\n$1\\leq n\\leq2\\cdot10^5$\n$-40\\leq a_i\\leq40$\n\nSubtasks \n\nFor the $20\\%$ of the maximum score:\n\n$1\\leq n\\leq2000$\n\n$-10\\leq a_i\\leq10$\n\nFor the $\\textbf{60\\%}$ of the maximum score:\n\n$1\\leq n\\leq10^5$\n\n$-12\\leq a_i\\leq12$\n\nOutput Format\n\nPrint two space-seperated integers describing the respective values of $\\mathrm{~g~}$ and the number of subarrays satisfying $r-l+1=m$ and $f(l,r)=g$.\n\nSample Input 0\n3\n2 3 1\n\nSample Output 0\n1 1\n\nExplanation 0\n\nThe figure below shows how to calculate $\\mathrm{~g~}$:\n\n$m$ is the length of the smallest subarray satisfying $f(l,r)$. From the table, we can see that $m=2$. There is only one subarray of length $2$ such that $f(l,r)=g=1$.",
@@ -996,8 +947,7 @@
     "date": null,
     "picture_num": "2",
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "24dd34b9-e11e-4637-81bd-72e7d3ef5910"
+    "Expected Time Complexity": null
   },
   {
     "question": "You are given an equilateral triangle ΔABC with the side BC being the base. Each side of the triangle is of length L. There are L-1 additional points on each of the sides dividing the sides into equal parts of unit lengths. Points on the sides of the triangle are called major points. Joining these points with lines parallel to the sides of ΔABC will produce some more equilateral triangles. The intersection points of these parallel lines are called minor points. \n\nLook at the picture below. It contains \n\n- Major points: A, B, C, P1, P2, Q1, Q3, R1, R4, S1, S2, S3 (note that we consider A, B, C as major points as well)\n- Minor points: Q2, R2, R3\n- Equilateral triangles ΔP1Q1Q2, ΔQ2S1S3, etc\n\nWe consider an equilateral triangle to be valid if\n\n- Each of its vertices is either a major or a minor point, and\n- The distance from its base (the base of a triangle is the side parallel to BC) to BC is less than the distance from the other vertex of the triangle (i.e. opposite vertex that doesn't lie on the base of triangle) to BC.\n\nIn the figure above, ΔQ2P1P2 is not a valid triangle but ΔQ2R2R3 is a valid triangle.\n\nYou will be given L, the length of the original triangle ΔABC. You need to find out the number of valid equilateral triangles with side length exactly K.\n\n-----Input-----\n- The first line of the input contains an integer T denoting the number of test cases. The description of each testcase follows.\n- Each test case has one line containing two space-separated integers: L and K.\n\n-----Output-----\nFor each testcase, print \"Case i: \", and then the answer, where i is the testcase number, 1-indexed.\n\n-----Constraints-----\n- 1 ≤ T ≤ 500\n-  1 ≤ L, K ≤ 5000\n\n-----Example-----\nInput:\n2\n4 3\n4 4\n\nOutput:\nCase 1: 3\nCase 2: 1\n\n-----Explanation-----\n\nThe figure presented in the problem description is a triangle with side length 4.\nIn testcase 1, the valid triangles are ΔAR1R4, ΔP1BS3, ΔP2S1C\n\nIn testcase 2, the only valid triangle is ΔABC",
@@ -1016,8 +966,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "e0966f1f-0a94-4ffa-9551-327df8447a49"
+    "Expected Time Complexity": null
   },
   {
     "question": "One way to create a task is to learn from math. You can generate some random math statement or modify some theorems to get something new and build a new task from that.\n\nFor example, there is a statement called the \"Goldbach's conjecture\". It says: \"each even number no less than four can be expressed as the sum of two primes\". Let's modify it. How about a statement like that: \"each integer no less than 12 can be expressed as the sum of two composite numbers.\" Not like the Goldbach's conjecture, I can prove this theorem.\n\nYou are given an integer n no less than 12, express it as a sum of two composite numbers.\n\nInput\n\nThe only line contains an integer n (12 ≤ n ≤ 106).\n\nOutput\n\nOutput two composite integers x and y (1 < x, y < n) such that x + y = n. If there are multiple solutions, you can output any of them.\n\nExamples\n\nInput\n\n12\n\n\nOutput\n\n4 8\n\n\nInput\n\n15\n\n\nOutput\n\n6 9\n\n\nInput\n\n23\n\n\nOutput\n\n8 15\n\n\nInput\n\n1000000\n\n\nOutput\n\n500000 500000\n\nNote\n\nIn the first example, 12 = 4 + 8 and both 4, 8 are composite numbers. You can output \"6 6\" or \"8 4\" as well.\n\nIn the second example, 15 = 6 + 9. Note that you can't output \"1 14\" because 1 is not a composite number.",
@@ -1036,8 +985,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": "O(1)",
-    "uuid": "79bcb439-969a-4b47-b42a-730fdd50959e"
+    "Expected Time Complexity": "O(1)"
   },
   {
     "question": "You are given a string text of words that are placed among some number of spaces. Each word consists of one or more lowercase English letters and are separated by at least one space. It's guaranteed that text contains at least one word.\nRearrange the spaces so that there is an equal number of spaces between every pair of adjacent words and that number is maximized. If you cannot redistribute all the spaces equally, place the extra spaces at the end, meaning the returned string should be the same length as text.\nReturn the string after rearranging the spaces.\n \nExample 1:\nInput: text = \"  this   is  a sentence \"\nOutput: \"this   is   a   sentence\"\nExplanation: There are a total of 9 spaces and 4 words. We can evenly divide the 9 spaces between the words: 9 / (4-1) = 3 spaces.\n\nExample 2:\nInput: text = \" practice   makes   perfect\"\nOutput: \"practice   makes   perfect \"\nExplanation: There are a total of 7 spaces and 3 words. 7 / (3-1) = 3 spaces plus 1 extra space. We place this extra space at the end of the string.\n\nExample 3:\nInput: text = \"hello   world\"\nOutput: \"hello   world\"\n\nExample 4:\nInput: text = \"  walks  udp package   into  bar a\"\nOutput: \"walks  udp  package  into  bar  a \"\n\nExample 5:\nInput: text = \"a\"\nOutput: \"a\"\n\n \nConstraints:\n\n1 <= text.length <= 100\ntext consists of lowercase English letters and ' '.\ntext contains at least one word.",
@@ -1056,8 +1004,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "552dc1ae-7d7e-47c1-9597-2acc7d342a3b"
+    "Expected Time Complexity": null
   },
   {
     "question": "In distant future on Earth day lasts for n hours and that's why there are n timezones. Local times in adjacent timezones differ by one hour. For describing local time, hours numbers from 1 to n are used, i.e. there is no time \"0 hours\", instead of it \"n hours\" is used. When local time in the 1-st timezone is 1 hour, local time in the i-th timezone is i hours.\n\nSome online programming contests platform wants to conduct a contest that lasts for an hour in such a way that its beginning coincides with beginning of some hour (in all time zones). The platform knows, that there are a_{i} people from i-th timezone who want to participate in the contest. Each person will participate if and only if the contest starts no earlier than s hours 00 minutes local time and ends not later than f hours 00 minutes local time. Values s and f are equal for all time zones. If the contest starts at f hours 00 minutes local time, the person won't participate in it.\n\nHelp platform select such an hour, that the number of people who will participate in the contest is maximum. \n\n\n-----Input-----\n\nThe first line contains a single integer n (2 ≤ n ≤ 100 000) — the number of hours in day.\n\nThe second line contains n space-separated integers a_1, a_2, ..., a_{n} (1 ≤ a_{i} ≤ 10 000), where a_{i} is the number of people in the i-th timezone who want to participate in the contest.\n\nThe third line contains two space-separated integers s and f (1 ≤ s < f ≤ n).\n\n\n-----Output-----\n\nOutput a single integer — the time of the beginning of the contest (in the first timezone local time), such that the number of participants will be maximum possible. If there are many answers, output the smallest among them.\n\n\n-----Examples-----\nInput\n3\n1 2 3\n1 3\n\nOutput\n3\n\nInput\n5\n1 2 3 4 1\n1 3\n\nOutput\n4\n\n\n\n-----Note-----\n\nIn the first example, it's optimal to start competition at 3 hours (in first timezone). In this case, it will be 1 hour in the second timezone and 2 hours in the third timezone. Only one person from the first timezone won't participate.\n\nIn second example only people from the third and the fourth timezones will participate.",
@@ -1076,8 +1023,7 @@
     "date": "2019-12-31",
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "e50efa5d-279c-4c58-878a-93b2e40fd90f"
+    "Expected Time Complexity": null
   },
   {
     "question": "You are organising a king of the hill tournament, the Buenos Aires Paddleboarding Competition (BAPC), with $n$ participants. In a king of the hill tournament, one person starts as a “king” and is then challenged by another person, the winning person becomes the new king. This is repeated until all participants have challenged exactly once (except for the starting person). In a paddleboarding match, there are no draws. The person which ends up as king, wins the tournament. Since you are the organiser, you get to choose the starting person and the order in which they challenge the king.\n\nSomeone is offering you a substantial amount of money in case one of the participants, Henk, ends up winning the tournament. You happen to know, for any two participants $x$ and $y$, which of the two would win if they were to match during the tournament. Consequently, you choose to do the unethical: you will try to rig the game. Can you find a schedule that makes Henk win the tournament?\n\n-----Input-----\n - The first line contains an integer $1 \\leq n \\leq 1000$, the number of participants. The participants are numbered $0, \\dots , n-1$, where Henk is $0$.\n - Then $n$ lines follow, where each line has exactly $n$ characters (not counting the newline character). These lines represent the matrix with the information of who beats who, as follows. On line $i$ the $j$th character is (note that $0 \\leq i, j < n$):\n - ’1’ if person $i$ will win against person $j$.\n - ’0’ if person $i$ will lose against person $j$.\n - ’X’ if $i = j$.\n\n-----Output-----\nPrint a sequence of participants, such that the first person starts as king and the consequent participants challenge the king. If there is no way to rig the game such that Henk wins, print “impossible”.\n\n-----Examples-----\nSample Input:\n3\nX10\n0X1\n10X\nSample Output:\n1 2 0",
@@ -1096,8 +1042,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "839a616e-3832-44a0-a74c-e917b1b43568"
+    "Expected Time Complexity": null
   },
   {
     "question": "On a history lesson the teacher asked Vasya to name the dates when n famous events took place. He doesn't remembers the exact dates but he remembers a segment of days [li, ri] (inclusive) on which the event could have taken place. However Vasya also remembers that there was at most one event in one day. Help him choose such n dates of famous events that will fulfill both conditions. It is guaranteed that it is possible.\n\nInput\n\nThe first line contains one integer n (1 ≤ n ≤ 100) — the number of known events. Then follow n lines containing two integers li and ri each (1 ≤ li ≤ ri ≤ 107) — the earliest acceptable date and the latest acceptable date of the i-th event.\n\nOutput\n\nPrint n numbers — the dates on which the events took place. If there are several solutions, print any of them. It is guaranteed that a solution exists.\n\nExamples\n\nInput\n\n3\n1 2\n2 3\n3 4\n\n\nOutput\n\n1 2 3 \n\n\nInput\n\n2\n1 3\n1 3\n\n\nOutput\n\n1 2",
@@ -1116,8 +1061,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "6c6529a5-61d1-424b-988b-3d0607733712"
+    "Expected Time Complexity": null
   },
   {
     "question": "Problem description.\nA matrix of dimension mxn containing only 0's and 1's as it elements is given.Determine the maximum possible  sub-square matrix containing only 1's as its elements\n\nInput\nInput description.\n\nThe first line of input contains an integer T,denoting the  number of test cases\nFirst line of each test case contains  two space separated integers m,n denoting dimensions of matrix as mXn.\nNext m lines contains n space separated integers(0's and 1's) . \n\n\nOutput\nOutput description.\n\nFor every test case , output the max possible sub-square matrix dimension.\n\n\nConstraints\n\n1 ≤ T ≤10^5\n1 ≤ m,n ≤  100  \n\n \n\nExample\nInput:\n3\n3 3 \n1 0 0\n0 1 0\n0 0 1\n3 3\n0 0 0\n0 0 0\n0 0 0\n4 5\n1 0 0 0 0\n1 0 1 1 0\n0 1 1 1 1\n0 1 0 0 0\nOutput:\n1\n0\n2\n \n\nExplanation\nExample case 3.",
@@ -1136,8 +1080,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "bc4a57e5-c8d3-4313-a98a-a234bc2386dd"
+    "Expected Time Complexity": null
   },
   {
     "question": "There is a special game played in remote part of Rajasthan, where all people assemble with their all wealth and try to earn more wealth on the account of their current wealth.\n\nSuppose you are also a part of this game.\n\nThe game is like, there are N people playing the game where everyone has its wealth. You are given with the information about the wealth of all other people.\nThere is also a M number of groups, where each person is assigned a group id and the top half of the group in terms of wealth move forward to the next level of the game.\nThe group id is assigned by first arranging all the persons in decreasing order their wealth, like person with highest wealth get group id 1 ,the next one 2 and similarly upto M then again the cycle repeats.\n\nYou wish to win in your group, so you wonder how many more wealthier people you have in your group. Print the number of people in your group who have more wealth than you.\n\nInput:\nFirst line of input contains an integer T which denoted the number of test cases, each test case contains two lines of input where first line of test case contains two space separated integers nR nG where nR is the number of people and nG is the number of groups available for assignment.\n\nThe next line of test case contains nR space separated integers wealth[i], which represents the wealth of ith person playing the game where the first number represents your own wealth.\n\nOutput:\nFor each test case output the number of wealthier person than you in your own group in a line.\n\nConstraint:\n\n1 ≤ T ≤ 10,000\n1 ≤ nG ≤ nR ≤ 100\n ≤ wealth[i] ≤ 5000\n\nSAMPLE INPUT\n3\n12 11\n1640 3997 4133 4282 3130 3938 4628 1138 4474 4534 2218 1293 \n1 1\n2491 \n15 6\n1242 3342 4797 4252 811 4955 76 4298 3753 1104 168 17 2364 1207 4764\n\nSAMPLE OUTPUT\n0\n0\n1",
@@ -1156,8 +1099,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "b945695b-3ff8-4973-8d31-ce55d2a26ca3"
+    "Expected Time Complexity": null
   },
   {
     "question": "Mr. Bill is shopping at the store. There are some coins in his wallet (10-yen coins, 50-yen coins, 100-yen coins, 500-yen coins), but he is now trying to consume as much of this coin as possible. In other words, by paying for the goods with an appropriate number of coins, we are trying to minimize the total number of coins after receiving the change.\n\nFortunately, the clerk at this store is so disciplined and kind that change is always delivered in the best possible way. Therefore, for example, five 100-yen coins will not be given instead of one 500-yen coin. You can also take out 5 10-yen coins and receive 50-yen coins as change. However, you must not pay the coins of the same type as the coins you issued so that they will be returned as change. For example, if a 10-yen coin is paid out and another 10-yen coin is returned as change, a completely meaningless exchange will occur.\n\nHowever, Mr. Bill was not good at calculating, so he could not find out how many coins he should actually use. So he asked you for help. Your job is to write a program to determine the type and number of coins to use based on the number of coins in his wallet and the payment price. The clerk does not use banknotes for change.\n\n\n\nInput\n\nThe input contains several test cases.\n\nEach test case consists of two lines. The first line contains a single integer representing Mr. Bill's payment in yen. The second line contains four integers, which in turn represent the number of 10-yen coins, 50-yen coins, 100-yen coins, and 500-yen coins in your wallet.\n\nThe payment amount is always in units of 10 yen. That is, the one-yen place of the payment amount is always 0. You can also assume that you can only have up to 20 coins of the same type in your wallet. No non-payable cases are given during input.\n\nThe end of input is represented by a line containing a single 0.\n\nOutput\n\nFor each test case, print out the type and number of coins that Mr. Bill should use.\n\nEach line of output contains the two integers ci and ki. This means using ki coins for ci yen when paying. When using multiple types of coins, output as many lines as necessary in order from the smallest ci. Refer to the output example below.\n\nThe output must not include extra space. Separate consecutive test cases with a blank line.\n\nExample\n\nInput\n\n160\n1 1 2 0\n160\n1 0 2 10\n0\n\n\nOutput\n\n10 1\n50 1\n100 1\n\n10 1\n100 2",
@@ -1176,8 +1118,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "134.217728 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "8e71b237-b840-49e7-a914-5884f8f49326"
+    "Expected Time Complexity": null
   },
   {
     "question": "There is a prison that can be represented as a rectangular matrix with $n$ rows and $m$ columns. Therefore, there are $n \\cdot m$ prison cells. There are also $n \\cdot m$ prisoners, one in each prison cell. Let's denote the cell in the $i$-th row and the $j$-th column as $(i, j)$.\n\nThere's a secret tunnel in the cell $(r, c)$, that the prisoners will use to escape! However, to avoid the risk of getting caught, they will escape at night.\n\nBefore the night, every prisoner is in his own cell. When night comes, they can start moving to adjacent cells. Formally, in one second, a prisoner located in cell $(i, j)$ can move to cells $( i - 1 , j )$ , $( i + 1 , j )$ , $( i , j - 1 )$ , or $( i , j + 1 )$, as long as the target cell is inside the prison. They can also choose to stay in cell $(i, j)$.\n\nThe prisoners want to know the minimum number of seconds needed so that every prisoner can arrive to cell $( r , c )$ if they move optimally. Note that there can be any number of prisoners in the same cell at the same time.\n\n\n-----Input-----\n\nThe first line contains an integer $t$ $(1 \\le t \\le 10^4)$, the number of test cases.\n\nEach of the next $t$ lines contains four space-separated integers $n$, $m$, $r$, $c$ ($1 \\le r \\le n \\le 10^9$, $1 \\le c \\le m \\le 10^9$).\n\n\n-----Output-----\n\nPrint $t$ lines, the answers for each test case.\n\n\n-----Examples-----\n\nInput\n3\n10 10 1 1\n3 5 2 4\n10 2 5 1\nOutput\n18\n4\n6\n\n\n-----Note-----\n\nNone",
@@ -1196,8 +1137,7 @@
     "date": "2020-11-29",
     "picture_num": "0",
     "memory_limit": "256 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "d3772e84-fa30-4c45-b902-901d5fefdbc8"
+    "Expected Time Complexity": null
   },
   {
     "question": "## Task\nGiven an array of strings, reverse them and their order in such way that their length stays the same as the length of the original inputs.\n\n### Example:\n\n```\nInput:  {\"I\", \"like\", \"big\", \"butts\", \"and\", \"I\", \"cannot\", \"lie!\"}\nOutput: {\"!\", \"eilt\", \"onn\", \"acIdn\", \"ast\", \"t\", \"ubgibe\", \"kilI\"}\n```\n\nGood luck!",
@@ -1216,8 +1156,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "fca72891-a311-4409-9ea1-39d6a739abaf"
+    "Expected Time Complexity": null
   },
   {
     "question": "Geek wants to know the traversals required to construct a unique binary tree. Given a pair of traversal, return true if it is possible to construct unique binary tree from the given traversals otherwise return false.\nEach traversal is represented with an integer: preorder - 1, inorder - 2, postorder - 3.   \nExample 1:\nInput:\na = 1, b=2\nOutput: 1\nExplanation: We can construct binary tree using inorder traversal and preorder traversal. \nExample 2:\nInput: a = 1, b=3\nOutput: 0 \nExplanation: We cannot construct binary tree using preorder traversal and postorder traversal. \nConstraints:\n1 <= a,b <=3\nYour Task:\nYou don't need to read input or print anything. Your task is to complete the function isPossible() which takes a and b as input parameters and returns true or false.\nExpected Time Complexity: O(1)\nExpected Auxiliary Space: O(1)",
@@ -1236,8 +1175,7 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(1)",
-    "uuid": "7889cb0a-55c3-4337-92f1-ae37616c40db"
+    "Expected Time Complexity": "O(1)"
   },
   {
     "question": "Penelope and her classmates are lost in the Forbidden Forest and the Devil is out to get them. But Penelope has magical powers that can build bridges across the dangerous river and take her friends to safety. The only bridges that can withstand the Devil's wrath are the ones built between two similar trees in the forest. \nGiven str1 and str2 denoting the order of trees on either side of the river, find the maximum number of bridges that Penelope can build and save everyone from the Devil. \nNote: Each tree in the forest belongs to one of the 3 categories represented by * or # or @, and it's easy to understand that bridges do not intersect or cross each other. \nExample 1:\nInput:\nstr1 = \"*@#*\" \nstr2 = \"*#\"\nOutput:\n2\nExplanation:\nstr1 = \"*@#*\" and str2 = \"*#\" \nTwo bridges can be built between the banks \nof the river in the following manner. \n* @ # *\n|   |\n*   #\nExample 2:\nInput:\nstr1 = \"***\"\nstr2 = \"##\"\nOutput:\n0\nYour Task:\nYou don't need to read input or print anything. Complete the function build_bridges() that takes str1 and str2 as input parameters and returns the maximum number of bridges that can be built. \nExpected Time Complexity: O(N*M)\nExpected Auxiliary Space: O(N*M)\nConstraints:\n1 ≤ N, M ≤ 100\nWhere, N and M are the size of the string str1 and str2 respectively.",
@@ -1256,8 +1194,7 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(N*M)",
-    "uuid": "e988f1b9-7060-47ef-9265-62dc35b4c295"
+    "Expected Time Complexity": "O(N*M)"
   },
   {
     "question": "Given two force vectors, find out whether they are parallel, perpendicular or neither. Let the first vector be A = a_{1} i +a_{2} j + a_{3} k and the second vector be B = b_{1} i + b_{2} j + b_{3} k.\nA.B = a_{1 }* b_{1} + a_{2 }* b_{2} + a_{3 }* b_{3}\nA x B = (a2 * b3 - a_{3 }* b_{2}) i - (a_{1} * b_{3} - b_{1}* a_{3}) j + (a_{1 }* b_{2} - a_{2 }* b_{1}) k\n|A|^{2} = a12 + a22 + a32\nIf A.B = 0, then A and B are perpendicular.\nIf |A X B|^{2} = 0, then A and B are parallel.\nExample 1:\nInput: A = 3i + 2j + k, B = 6i + 4j + 2k\nOutput: 1\nExplanation: |A X B|^{2 }= 0\nExample 2:\nInput: A = 4i + 6j + k, B = i - 1j + 2k\nOutput: 2\nExplanation: A.B = 0\n \nYour Task:\nYou don't need to read or print anything. Your task is to complete the function find() which takes A and B vector as parameter and returns 1 if they are parallel to each other, 2 if they are perpendicular to each other or 0 otherwise. A and B vectors will contain (a1,a2,a3) and (b1,b2,b3) respectively.\n \nExpected Time Complexity: O(1)\nExpected Space Complexity: O(1)\n \nConstraints:\n-100 <= Component <= 100",
@@ -1276,8 +1213,7 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(1)",
-    "uuid": "06b1c15b-2b54-4899-a848-940b9dfb35e8"
+    "Expected Time Complexity": "O(1)"
   },
   {
     "question": "To get on the Shinkansen, you need two tickets, a \"ticket\" and a \"limited express ticket\". These are separate tickets because some of the routes may not use the Shinkansen, but for routes that use only the Shinkansen, one ticket can be used as both a ticket and a limited express ticket. It may also be issued.\n\nAutomatic ticket gates must read these tickets and open the gate only when the correct ticket is inserted. Create a program that determines whether one \"ticket\" and one \"limited express ticket\" or both, or one \"boarding / limited express ticket\" has been inserted, and determines whether the door of the automatic ticket gate is open or closed. please do it.\n\n\n\ninput\n\nThe input is given in the following format.\n\n\nb1 b2 b3\n\n\nThe input consists of one line and contains three integers separated by one space. b1 indicates the state in which the \"ticket\" is inserted, b2 indicates the state in which the \"limited express ticket\" is inserted, and b3 indicates the state in which the \"boarding / limited express ticket\" is inserted. The turned-in state is represented by 0 or 1, where 0 indicates a non-charged state, and 1 indicates a loaded state. However, the combination of expected input states is limited to the following cases.\n\nInput | Input state | Door operation for input\n--- | --- | ---\n1 0 0 | Insert only \"ticket\" | Close\n0 1 0 | Only \"Limited Express Ticket\" is introduced | Close\n1 1 0 | Introducing \"tickets\" and \"express tickets\" | Open\n0 0 1 | Introducing \"Boarding / Limited Express Tickets\" | Open\n0 0 0 | No input | Close\n\n\noutput\n\nOutputs Open or Close, which indicates the opening and closing of the automatic ticket gate, on one line.\n\nExample\n\nInput\n\n0 0 1\n\n\nOutput\n\nOpen",
@@ -1296,8 +1232,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "134.217728 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "fabba906-0b5a-421c-9201-63c5a2753234"
+    "Expected Time Complexity": null
   },
   {
     "question": "ICPC Calculator\n\nIn mathematics, we usually specify the order of operations by using parentheses. For example, 7 × (3 + 2) always means multiplying 7 by the result of 3 + 2 and never means adding 2 to the result of 7 × 3. However, there are people who do not like parentheses. International Counter of Parentheses Council (ICPC) is attempting to make a notation without parentheses the world standard. They are always making studies of such no-parentheses notations.\n\nDr. Tsukuba, a member of ICPC, invented a new parenthesis-free notation. In his notation, a single expression is represented by multiple lines, each of which contains an addition operator (+), a multiplication operator (*) or an integer. An expression is either a single integer or an operator application to operands. Integers are denoted in decimal notation in one line. An operator application is denoted by a line of its operator immediately followed by lines denoting its two or more operands, each of which is an expression, recursively. Note that when an operand is an operator application, it comprises multiple lines.\n\nAs expressions may be arbitrarily nested, we have to make it clear which operator is applied to which operands. For that purpose, each of the expressions is given its nesting level. The top level expression has the nesting level of 0. When an expression of level n is an operator application, its operands are expressions of level n + 1. The first line of an expression starts with a sequence of periods (.), the number of which indicates the level of the expression.\n\nFor example, 2 + 3 in the regular mathematics is denoted as in Figure 1. An operator can be applied to two or more operands. Operators + and * represent operations of summation of all operands and multiplication of all operands, respectively. For example, Figure 2 shows an expression multiplying 2, 3, and 4. For a more complicated example, an expression (2 + 3 + 4) × 5 in the regular mathematics can be expressed as in Figure 3 while (2 + 3) × 4 × 5 can be expressed as in Figure 4.\n\n\n+\n.2\n.3\n\n\nFigure 1: 2 + 3\n\n\n\n\n*\n.2\n.3\n.4\n\n\nFigure 2: An expression multiplying 2, 3, and 4\n\n\n\n\n*\n.+\n..2\n..3\n..4\n.5\n\n\nFigure 3: (2 + 3 + 4) × 5\n\n\n\n\n*\n.+\n..2\n..3\n.4\n.5\n\n\nFigure 4: (2 + 3) × 4 × 5\n\n\n\nYour job is to write a program that computes the value of expressions written in Dr. Tsukuba's notation to help him.\n\nInput\n\nThe input consists of multiple datasets. Each dataset starts with a line containing a positive integer n, followed by n lines denoting a single expression in Dr. Tsukuba's notation.\n\nYou may assume that, in the expressions given in the input, every integer comprises a single digit and that every expression has no more than nine integers. You may also assume that all the input expressions are valid in the Dr. Tsukuba's notation. The input contains no extra characters, such as spaces or empty lines.\n\nThe last dataset is immediately followed by a line with a single zero.\n\nOutput\n\nFor each dataset, output a single line containing an integer which is the value of the given expression.\n\nSample Input\n\n\n1\n9\n4\n+\n.1\n.2\n.3\n9\n+\n.0\n.+\n..*\n...1\n...*\n....1\n....2\n..0\n10\n+\n.+\n..6\n..2\n.+\n..1\n..*\n...7\n...6\n.3\n0\n\n\nOutput for the Sample Input\n\n\n9\n6\n2\n54\n\n\n\n\n\n\nExample\n\nInput\n\n1\n9\n4\n+\n.1\n.2\n.3\n9\n+\n.0\n.+\n..*\n...1\n...*\n....1\n....2\n..0\n10\n+\n.+\n..6\n..2\n.+\n..1\n..*\n...7\n...6\n.3\n0\n\n\nOutput\n\n9\n6\n2\n54",
@@ -1316,8 +1251,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "268.435456 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "fc735fa2-2ab2-417e-91b1-1affb24112ac"
+    "Expected Time Complexity": null
   },
   {
     "question": "There are n beacons located at distinct positions on a number line. The i-th beacon has position ai and power level bi. When the i-th beacon is activated, it destroys all beacons to its left (direction of decreasing coordinates) within distance bi inclusive. The beacon itself is not destroyed however. Saitama will activate the beacons one at a time from right to left. If a beacon is destroyed, it cannot be activated.\n\nSaitama wants Genos to add a beacon strictly to the right of all the existing beacons, with any position and any power level, such that the least possible number of beacons are destroyed. Note that Genos's placement of the beacon means it will be the first beacon activated. Help Genos by finding the minimum number of beacons that could be destroyed.\n\nInput\n\nThe first line of input contains a single integer n (1 ≤ n ≤ 100 000) — the initial number of beacons.\n\nThe i-th of next n lines contains two integers ai and bi (0 ≤ ai ≤ 1 000 000, 1 ≤ bi ≤ 1 000 000) — the position and power level of the i-th beacon respectively. No two beacons will have the same position, so ai ≠ aj if i ≠ j.\n\nOutput\n\nPrint a single integer — the minimum number of beacons that could be destroyed if exactly one beacon is added.\n\nExamples\n\nInput\n\n4\n1 9\n3 1\n6 1\n7 4\n\n\nOutput\n\n1\n\n\nInput\n\n7\n1 1\n2 1\n3 1\n4 1\n5 1\n6 1\n7 1\n\n\nOutput\n\n3\n\nNote\n\nFor the first sample case, the minimum number of beacons destroyed is 1. One way to achieve this is to place a beacon at position 9 with power level 2.\n\nFor the second sample case, the minimum number of beacons destroyed is 3. One way to achieve this is to place a beacon at position 1337 with power level 42.",
@@ -1336,8 +1270,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "256.0 megabytes",
-    "Expected Time Complexity": "O(NLOG(N))",
-    "uuid": "a6db94a3-3a81-4f10-a91f-f2b7a9eaf67d"
+    "Expected Time Complexity": "O(NLOG(N))"
   },
   {
     "question": "There are n cities and m bidirectional roads in the country. The roads in the country form an undirected weighted graph. The graph is not guaranteed to be connected. Each road has it's own parameter w. You can travel through the roads, but the government made a new law: you can only go through two roads at a time (go from city a to city b and then from city b to city c) and you will have to pay (w_{ab} + w_{bc})^2 money to go through those roads. Find out whether it is possible to travel from city 1 to every other city t and what's the minimum amount of money you need to get from 1 to t.\n\nInput\n\nFirst line contains two integers n, m (2 ≤ n ≤ 10^5, 1 ≤ m ≤ min((n ⋅ (n - 1))/(2), 2 ⋅ 10^5)).\n\nNext m lines each contain three integers v_i, u_i, w_i (1 ≤ v_i, u_i ≤ n, 1 ≤ w_i ≤ 50, u_i ≠ v_i). It's guaranteed that there are no multiple edges, i.e. for any edge (u_i, v_i) there are no other edges (u_i, v_i) or (v_i, u_i).\n\nOutput\n\nFor every city t print one integer. If there is no correct path between 1 and t output -1. Otherwise print out the minimum amount of money needed to travel from 1 to t.\n\nExamples\n\nInput\n\n\n5 6\n1 2 3\n2 3 4\n3 4 5\n4 5 6\n1 5 1\n2 4 2\n\n\nOutput\n\n\n0 98 49 25 114 \n\nInput\n\n\n3 2\n1 2 1\n2 3 2\n\n\nOutput\n\n\n0 -1 9 \n\nNote\n\nThe graph in the first example looks like this.\n\n<image>\n\nIn the second example the path from 1 to 3 goes through 2, so the resulting payment is (1 + 2)^2 = 9.\n\n<image>",
@@ -1356,8 +1289,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "512.0 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "90d3bc23-0502-48c5-878e-74b73f1132d8"
+    "Expected Time Complexity": null
   },
   {
     "question": "Mary wrote a recipe book and is about to publish it, but because of a new European law, she needs to update and include all measures in grams.\n\nGiven all the measures in tablespoon (`tbsp`) and in teaspoon (`tsp`), considering `1 tbsp = 15g` and `1 tsp = 5g`, append to the end of the measurement the biggest equivalent integer (rounding up).\n\n## Examples\n\n```\n\"2 tbsp of butter\"    -->  \"2 tbsp (30g) of butter\"\n\n\"1/2 tbsp of oregano\" -->  \"1/2 tbsp (8g) of oregano\"\n\n\"1/2 tsp of salt\"     -->  \"1/2 tbsp (3g) of salt\"\n\n\"Add to the mixing bowl and coat well with 1 tbsp of olive oil & 1/2 tbsp of dried dill\" -->\n\"Add to the mixing bowl and coat well with 1 tbsp (15g) of olive oil & 1/2 tbsp (8g) of dried dill\"\n```",
@@ -1376,8 +1308,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "c909ef5b-089e-4a68-9c34-072776d6b478"
+    "Expected Time Complexity": null
   },
   {
     "question": "Given an array arr[] of N integers, the task is to find a subsequence of size K whose product is maximum among all possible K sized subsequences of a given array.\nExample 1:\nInput: N = 4, K = 2\narr[] = {1, 2, 0, 3} \nOutput: 6\nExplanation: Subsequence containing \nelements {2, 3} gives maximum product: \n2*3 = 6\nExample 2:\nInput: N = 6, K = 4\narr[] = {1, 2, -1, -3, -6, 4}\nOutput: 144\nExplanation: Subsequence containing \n{2, -3, -6, 4} gives maximum product: \n2*(-3)*(-6)*4 = 144\nYour Task:\nThis is a function problem. You don't need to take any input, as it is already accomplished by the driver code. You just need to complete the function maxProductSubarrayOfSizeK() that takes array arr[], integer N and integer K as parameters and returns the desired product.\n \nExpected Time Complexity: O(NlogN).\nExpected Auxiliary Space: O(1).\n \nConstraints:\n1 ≤ N ≤ 10^{5}",
@@ -1396,8 +1327,7 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": "O(NlogN).",
-    "uuid": "09d55d76-0b72-41b0-997f-5b5589826c18"
+    "Expected Time Complexity": "O(NlogN)."
   },
   {
     "question": "You have n  tiles, where each tile has one letter tiles[i] printed on it.\nReturn the number of possible non-empty sequences of letters you can make using the letters printed on those tiles.\n \nExample 1:\nInput: tiles = \"AAB\"\nOutput: 8\nExplanation: The possible sequences are \"A\", \"B\", \"AA\", \"AB\", \"BA\", \"AAB\", \"ABA\", \"BAA\".\n\nExample 2:\nInput: tiles = \"AAABBC\"\nOutput: 188\n\nExample 3:\nInput: tiles = \"V\"\nOutput: 1\n\n \nConstraints:\n\n1 <= tiles.length <= 7\ntiles consists of uppercase English letters.",
@@ -1416,8 +1346,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "1f7303cd-6199-4c01-849c-60888d27ff75"
+    "Expected Time Complexity": null
   },
   {
     "question": "Hosssam decided to sneak into Hemose's room while he is sleeping and change his laptop's password. He already knows the password, which is a string $s$ of length $n$. He also knows that there are $k$ special letters of the alphabet: $c_1,c_2,\\ldots, c_k$.\n\nHosssam made a program that can do the following.\n\nThe program considers the current password $s$ of some length $m$.\n\nThen it finds all positions $i$ ($1\\le i<m$) such that $s_{i+1}$ is one of the $k$ special letters.\n\nThen it deletes all of those positions from the password $s$ even if $s_{i}$ is a special character. If there are no positions to delete, then the program displays an error message which has a very loud sound.\n\nFor example, suppose the string $s$ is \"abcdef\" and the special characters are 'b' and 'd'. If he runs the program once, the positions $1$ and $3$ will be deleted as they come before special characters, so the password becomes \"bdef\". If he runs the program again, it deletes position $1$, and the password becomes \"def\". If he is wise, he won't run it a third time.\n\nHosssam wants to know how many times he can run the program on Hemose's laptop without waking him up from the sound of the error message. Can you help him?\n\n\n-----Input-----\n\nThe first line contains a single integer $t$ ($1 \\le t \\le 10^5$) — the number of test cases. Then $t$ test cases follow.\n\nThe first line of each test case contains a single integer $n$ ($2 \\le n \\le 10^5$) — the initial length of the password.\n\nThe next line contains a string $s$ consisting of $n$ lowercase English letters — the initial password.\n\nThe next line contains an integer $k$ ($1 \\le k \\le 26$), followed by $k$ distinct lowercase letters $c_1,c_2,\\ldots,c_k$ — the special letters.\n\nIt is guaranteed that the sum of $n$ over all test cases does not exceed $2\\cdot 10^5$.\n\n\n-----Output-----\n\nFor each test case, print the maximum number of times Hosssam can run the program without displaying the error message, on a new line.\n\n\n-----Examples-----\n\nInput\n10\n9\niloveslim\n1 s\n7\njoobeel\n2 o e\n7\nbasiozi\n2 s i\n6\nkhater\n1 r\n7\nabobeih\n6 a b e h i o\n5\nzondl\n5 a b c e f\n6\nshoman\n2 a h\n7\nshetwey\n2 h y\n5\nsamez\n1 m\n6\nmouraz\n1 m\nOutput\n5\n2\n3\n5\n1\n0\n3\n5\n2\n0\n\n\n-----Note-----\n\nIn the first test case, the program can run $5$ times as follows: $\\text{iloveslim} \\to \\text{ilovslim} \\to \\text{iloslim} \\to \\text{ilslim} \\to \\text{islim} \\to \\text{slim}$\n\nIn the second test case, the program can run $2$ times as follows: $\\text{joobeel} \\to \\text{oel} \\to \\text{el}$\n\nIn the third test case, the program can run $3$ times as follows: $\\text{basiozi} \\to \\text{bioi} \\to \\text{ii} \\to \\text{i}$.\n\nIn the fourth test case, the program can run $5$ times as follows: $\\text{khater} \\to \\text{khatr} \\to \\text{khar} \\to \\text{khr} \\to \\text{kr} \\to \\text{r}$\n\nIn the fifth test case, the program can run only once as follows: $\\text{abobeih} \\to \\text{h}$\n\nIn the sixth test case, the program cannot run as none of the characters in the password is a special character.",
@@ -1436,8 +1365,7 @@
     "date": "2022-05-06",
     "picture_num": "0",
     "memory_limit": "256 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "4db3eb39-f848-4822-8201-6a5414551eb6"
+    "Expected Time Complexity": null
   },
   {
     "question": "Colossal! — exclaimed Hawk-nose. — A programmer! That's exactly what we are looking for.Arkadi and Boris Strugatsky. Monday starts on Saturday\n\nReading the book \"Equations of Mathematical Magic\" Roman Oira-Oira and Cristobal Junta found an interesting equation: $a - (a \\oplus x) - x = 0$ for some given $a$, where $\\oplus$ stands for a bitwise exclusive or (XOR) of two integers (this operation is denoted as ^ or xor in many modern programming languages). Oira-Oira quickly found some $x$, which is the solution of the equation, but Cristobal Junta decided that Oira-Oira's result is not interesting enough, so he asked his colleague how many non-negative solutions of this equation exist. This task turned out to be too difficult for Oira-Oira, so he asks you to help.\n\n\n-----Input-----\n\nEach test contains several possible values of $a$ and your task is to find the number of equation's solution for each of them. The first line contains an integer $t$ ($1 \\le t \\le 1000$) — the number of these values.\n\nThe following $t$ lines contain the values of parameter $a$, each value is an integer from $0$ to $2^{30} - 1$ inclusive.\n\n\n-----Output-----\n\nFor each value of $a$ print exactly one integer — the number of non-negative solutions of the equation for the given value of the parameter. Print answers in the same order as values of $a$ appear in the input.\n\nOne can show that the number of solutions is always finite.\n\n\n-----Example-----\nInput\n3\n0\n2\n1073741823\n\nOutput\n1\n2\n1073741824\n\n\n\n-----Note-----\n\nLet's define the bitwise exclusive OR (XOR) operation. Given two integers $x$ and $y$, consider their binary representations (possibly with leading zeroes): $x_k \\dots x_2 x_1 x_0$ and $y_k \\dots y_2 y_1 y_0$. Here, $x_i$ is the $i$-th bit of the number $x$ and $y_i$ is the $i$-th bit of the number $y$. Let $r = x \\oplus y$ be the result of the XOR operation of $x$ and $y$. Then $r$ is defined as $r_k \\dots r_2 r_1 r_0$ where:\n\n$$ r_i = \\left\\{ \\begin{aligned} 1, ~ \\text{if} ~ x_i \\ne y_i \\\\ 0, ~ \\text{if} ~ x_i = y_i \\end{aligned} \\right. $$\n\nFor the first value of the parameter, only $x = 0$ is a solution of the equation.\n\nFor the second value of the parameter, solutions are $x = 0$ and $x = 2$.",
@@ -1456,8 +1384,7 @@
     "date": "2019-12-31",
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "64bf806a-b04f-452e-86ac-f5114df40bfe"
+    "Expected Time Complexity": null
   },
   {
     "question": "Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.\n\n```python\nmove_zeros([False,1,0,1,2,0,1,3,\"a\"]) # returns[False,1,1,2,1,3,\"a\",0,0]\n```",
@@ -1476,8 +1403,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "a165f730-0623-43d6-bb7d-0a90a4cc0df6"
+    "Expected Time Complexity": null
   },
   {
     "question": "Snuke has X+Y balls. X of them have an integer A written on them, and the other Y of them have an integer B written on them.\n\nSnuke will divide these balls into some number of groups. Here, every ball should be contained in exactly one group, and every group should contain one or more balls.\n\nA group is said to be good when the sum of the integers written on the balls in that group is a multiple of an integer C. Find the maximum possible number of good groups.\n\nSolve T test cases for each input file.\n\nConstraints\n\n* 1 \\leq T \\leq 2 \\times 10^4\n* 1 \\leq A,X,B,Y,C \\leq 10^9\n* A \\neq B\n\nInput\n\nInput is given from Standard Input in the following format. The first line is as follows:\n\n\nT\n\n\nThen, T test cases follow. Each test case is given in the following format:\n\n\nA X B Y C\n\n\nOutput\n\nFor each test case, print a line containing the maximum possible number of good groups.\n\nExample\n\nInput\n\n3\n3 3 4 4 5\n2 1 1 5 3\n3 1 4 2 5\n\n\nOutput\n\n2\n2\n0",
@@ -1496,8 +1422,7 @@
     "date": null,
     "picture_num": null,
     "memory_limit": "1024.0 megabytes",
-    "Expected Time Complexity": null,
-    "uuid": "4762c99a-df05-4ee5-98ef-ebada7fded9b"
+    "Expected Time Complexity": null
   },
   {
     "question": "Animesh has $n$ empty candy jars, numbered from ${1}$ to $n$, with infinite capacity. He performs $m$ operations. Each operation is described by $3$ integers, ${a}$, ${b}$, and ${k}$. Here, ${a}$ and ${b}$ are indices of the jars, and ${k}$ is the number of candies to be added inside each jar whose index lies between ${a}$ and ${b}$ (both inclusive).\nCan you tell the average number of candies after $m$ operations?\n\nExample    \n\n$n=5$ \n\n$operations=[[1,2,10],[3,5,10]]$   \n\nThe array has $5$ elements that all start at ${0}$.  In the first operation, add $10$ to the first $2$ elements.  Now the array is $[10,10,0,0,0]$.  In the second operation, add $10$ to the last $3$ elements (3 - 5).  Now the array is $[10,10,10,10,10]$ and the average is 10.  Sincd 10 is already an integer value, it does not need to be rounded.  \n\nFunction Description   \n\nComplete the solve function in the editor below.   \n\nsolve has the following parameters:   \n\nint n: the number of candy jars   \nint operations[m][3]: a 2-dimensional array of operations   \n\nReturns   \n\nint: the floor of the average number of canidies in all jars  \n\nInput Format\n\nThe first line contains two integers, $n$ and $m$, separated by a single space. \n\n$m$ lines follow.  Each of them contains three integers, ${a}$, ${b}$, and ${k}$, separated by spaces.\n\nConstraints\n\n$3\\leq n\\leq10^7$ \n\n$1\\leq m\\leq10^5$ \n\n$1\\leq a\\leq b\\leq N$ \n\n$0\\leq k\\leq10^6$\n\nSample Input\nSTDIN       Function\n-----       --------\n5 3         n = 5, operations[] size = 3\n1 2 100     operations = [[1, 2, 100], [2, 5, 100], [3, 4, 100]]\n2 5 100\n3 4 100\n\nSample Output\n160\n\nExplanation\n\nInitially each of the jars contains 0 candies  \n\n0 0 0 0 0  \n\nFirst operation:  \n\n100 100 0 0 0  \n\nSecond operation:  \n\n100 200 100 100 100  \n\nThird operation: \n\n100 200 200 200 100  \n\nTotal = 800, Average = 800/5 = 160",
@@ -1516,7 +1441,6 @@
     "date": null,
     "picture_num": "0",
     "memory_limit": null,
-    "Expected Time Complexity": null,
-    "uuid": "5706e494-33b0-4bfa-bee8-34d1e9c763a2"
+    "Expected Time Complexity": null
   }
 ]
