@@ -1,6 +1,8 @@
 {
-  "data": {
-    "length": 11,
-    "type": "leetcode"
-  }
+  "length": 30,
+  "type": "card",
+  "email": "git8ankanroy@gmail.com",
+  "name": "top 10 dsa question",
+  "description": "eular problem question",
+  "twitter": "cu8code"
 }
