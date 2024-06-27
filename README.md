@@ -1,5 +1,3 @@
-Here is a revised version of your GitHub README:
-
 # Euler Dataset
 
 This repository contains questions from Project Euler along with their answers. The structure is as follows:
